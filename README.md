@@ -1,4 +1,4 @@
-Content Templates
+Rise Vision Presentation Templates
 Copyright © 2010 - May 15, 2014 Rise Vision Incorporated.
 Use of this software is governed by the GPLv3 license (available in the LICENSE file).
 
