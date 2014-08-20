@@ -2,7 +2,7 @@ Content Templates
 Copyright © 2010 - May 15, 2014 Rise Vision Incorporated.
 Use of this software is governed by the GPLv3 license (available in the LICENSE file).
 
-Content Templates - An assortement of themed templates to be used as content within http://rvauser.appspot.com/.
+Rise Vision Presentation Templates - An assortement of themed templates to be used as content within http://rvauser.appspot.com/.
 
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
 
