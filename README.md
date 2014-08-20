@@ -1,10 +1,12 @@
-###Rise Vision Presentation Templates
-Copyright © 2010 - May 15, 2014 Rise Vision Incorporated.
+##Rise Vision Presentation Templates
+##Copyright © 2010 - May 15, 2014 Rise Vision Incorporated.##
 Use of this software is governed by the GPLv3 license (available in the LICENSE file).
 
 Rise Vision Presentation Templates - An assortement of templates to be used as content within http://rvauser.appspot.com/.
 
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
+
+How to get started? This repository is orgainzed by folders named with their respective market or subject matter. Each folder is its own self contained presentatino template. Inside each template folder you will find a readme.txt containing specifc information on how to do modify various elements of the template.
 
 If you are looking for user documentation on Rise Vision please see http://www.risevision.com/help/users/
 
