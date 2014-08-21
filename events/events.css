@@ -1,0 +1,80 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Header Text */
+
+
+
+/* Header Text */
+    
+    #title {
+		font-family: 'Oswald', sans-serif;
+        background: -webkit-linear-gradient(top, rgba(254,255,255,0.2) 0%,rgba(255,255,255,0.7) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+        text-align: center;
+        font-size: 144px;
+		font-weight: bold;
+		letter-spacing: 3px;    
+	} 
+	
+    	/* 1280x850 */
+
+	@media only screen and (min-width: 1280px) {
+	    #title {
+			font-size: 144px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #title {
+			font-size: 150px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #title {
+			font-size: 190px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #title {
+			font-size: 380px;
+	    }
+	}
+	
+	
+/* Background Animation */
+#background {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+#background img {
+    min-width:100%;
+	-webkit-animation-duration: 275s;
+    -webkit-animation-name: slidein;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+}
+
+@-webkit-keyframes "slidein" {
+ 25% {
+   -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+ }
+ 50% {
+   -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
+   transform: scale(1) translate3d(0px, 0px, 0px);
+ }
+ 75% {
+   -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+ }
+ 
+ 

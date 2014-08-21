@@ -52,8 +52,8 @@ if(document.addEventListener ){
    aLoader = [
       { load: "edge_includes/jquery-2.0.3.min.js"},
       { load: "edge_includes/edge.3.0.0.min.js"},
-      { load: "text-transition-fluid_edge.js"},
-      { load: "text-transition-fluid_edgeActions.js"}];
+      { load: "text-transition_edge.js"},
+      { load: "text-transition_edgeActions.js"}];
 
 if (AdobeEdge.bootstrapLoading) { signaledLoading = true; AdobeEdge.loadResources=doLoadResources; AdobeEdge.playWhenReady=playWhenReady; }
 
