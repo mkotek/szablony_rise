@@ -7,8 +7,10 @@ Rise Vision Presentation Templates - An assortement of templates to be used to d
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
 
 **How to get started?**
-This repository is orgainzed by folders each containing its own separate template named by market or subject matter. Inside each template folder you find a html file. To use within rvauser.appspot.com copy the link to this html file and add to a schedule by url. The url will be http://rise-vision.github.io/content-templates/xxx/xxx.html where xxx is the name of the folder and html file name.
-Specific information on modifying varioius elements of each pesentation can be found within a readme.txt inside each template folder.
+How to get started? This repository is organized by folders each containing its own separate template named by market or subject matter. 
+
+Inside each template folder you will find a html file with the same name as the folder. 
+To use within rvauser.appspot.com copy the link to this page where you have it hosted and add to a schedule by url. If you would like to view the demo for this template the url is: http://rise-vision.github.io/content-templates/xxx/xxx.html where xxx is the name of the folder and html file name. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.
 
 If you are looking for user documentation on Rise Vision please see http://www.risevision.com/help/users/
 
