@@ -16,6 +16,7 @@ If you are looking for user documentation on Rise Vision please see http://www.r
 
 If you would like more information on developing applications for Rise Vision please visit http://www.risevision.com/help/developers/.
 
+
 ###Events Template###
 * Animated Background -  To change the background image modify the the img tag within <div id="background"> inside events.html. The zooming and panning are created using css keyframes and transforms in the events.css style sheet.
  
@@ -28,5 +29,5 @@ If you would like more information on developing applications for Rise Vision pl
 
  If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com. 
  
-
+**Additional Templates can be found here: https://github.com/Rise-Vision/content-templates**
 
