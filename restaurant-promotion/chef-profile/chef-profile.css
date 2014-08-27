@@ -1,0 +1,64 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#container {
+	height:100%;
+	width:100%;
+	margin:0;
+	overflow:hidden;
+	background-size:contain; 	
+}
+
+#background {
+	width:100%;
+	height:100%;
+	right:0%;
+	top:0%;
+	z-index:1;
+	position:absolute;
+}
+
+#logo {
+	 width:14%;
+	 height:auto;
+	 right:0%;
+	 top:0%;
+	 z-index:2;
+	 position:absolute;
+}
+
+#onsite {
+	 width:9.5%;
+	 height:auto;
+	 left:80%;
+	 top:55.5%;
+	 z-index:2;
+	 position:absolute;
+}
+
+#content {
+	width:100%;
+	height:45%;
+	left:0%;
+	top:55%;
+	z-index:3;
+	position:absolute;
+}
+
+#github {
+	 width:2.5%;
+	 height:5%;
+	 left:2.5%;
+	 top:92.5%;
+	 z-index:4;
+	 position:absolute;
+}
+
+#rise {
+	 width:2.5%;
+	 height:5%;
+	 left:6%;
+	 top:92.5%;
+	 z-index:5;
+	 position:absolute;
+}
