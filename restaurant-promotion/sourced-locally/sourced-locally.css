@@ -19,11 +19,12 @@
 }
 
 #logo {
-	 width:12%;
+	 width:8%;
 	 height:auto;
 	 right:2.5%;
 	 bottom:2.5%;
 	 z-index:2;
+	 margin-right:-15px;
 	 position:absolute;
 }
 
@@ -33,6 +34,7 @@
 	left:0%;
 	top:0%;
 	z-index:3;
+	margin-right:-1%;
 	position:absolute;	
 }
 
@@ -42,6 +44,7 @@
 	 left:2.5%;
 	 top:92.5%;
 	 z-index:4;
+	 margin-left:-1%;
 	 position:absolute;
 }
 
@@ -51,6 +54,7 @@
 	left:6%;
 	top:92.5%;
 	z-index:5;
+	margin-left:-1%;
 	position:absolute;
 }
 
