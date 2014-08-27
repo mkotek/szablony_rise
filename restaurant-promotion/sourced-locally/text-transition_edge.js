@@ -83,7 +83,7 @@ var symbols = {
                 ["color", "background-color", 'rgba(255,255,255,0.00)'],
                 ["style", "overflow", 'hidden'],
                 ["style", "height", '1080px'],
-                ["style", "width", '1920px']
+                ["style", "width", '960px']
             ],
             "${_allourfood}": [
                 ["color", "color", 'rgba(181,189,0,1.00)'],

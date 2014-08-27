@@ -21,7 +21,7 @@
 }",
 	"Symbol_1-Default Timeline_playhead_ms":"1559",
 	"pref__general__FilterNonAnimatedElements":"false",
-	"pref__general__AutoKeyframePropertiesArmed":"true",
+	"pref__general__AutoKeyframePropertiesArmed":"false",
 	"symbol_stage":{
 		"element_${_Symbol_1}":{
 			"timelineColor2":"0xd35d6e",
@@ -48,8 +48,8 @@
 			"timelineColor2":"0xcbbd71",
 			"timelineColor3":"0x7b7652",
 			"timelineColor":"0xeedf79"},
-		"dummyStageParentWidth":"1920px",
-		"defaultStageParentWidth":"1920px",
+		"dummyStageParentWidth":"960px",
+		"defaultStageParentWidth":"960px",
 		"defaultStageParentHeight":"1080px",
 		"element_${_Group}":{
 			"timelineColor2":"0xd8b467",
@@ -89,5 +89,5 @@
 	"nextElementColorIndex":"14",
 	"stage-Default Timeline_playhead_ms":"10000",
 	"pref__general__GenerateSmoothTransitions":"false",
-	"StageZoomFactor":"69",
+	"StageZoomFactor":"57",
 	"stage-Default Timeline_mark_ms":"-1"}
