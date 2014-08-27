@@ -26,22 +26,14 @@ var symbols = {
             {
                 id: 'Group',
                 type: 'group',
-                rect: ['88px', '66px','872px','851','auto', 'auto'],
+                rect: ['88px', '141px','872px','851','auto', 'auto'],
                 c: [
                 {
                     id: 'noneofour',
                     type: 'text',
                     rect: ['0px', '583px','872px','268px','auto', 'auto'],
-                    text: "",
-                    font: ['Oswald, sans-serif', 86, "rgba(181,189,0,1.00)", "500", "none", ""]
-                },
-                {
-                    id: 'Text',
-                    type: 'text',
-                    rect: ['0px', '601px','1100px','391px','auto', 'auto'],
-                    text: "AND NOT MASS <br>PRODUCED OR <br>TRUCKED IN!",
-                    align: "left",
-                    font: ['Oswald, sans-serif', 100, "rgba(181,189,0,1)", "700", "none", "normal"]
+                    text: "None of our ingredients are <br>mass produced or trucked in.",
+                    font: ['Oswald, sans-serif', 86, "rgba(99,99,99,1)", "100", "none", ""]
                 },
                 {
                     id: 'sourcedlocally',
@@ -67,7 +59,7 @@ var symbols = {
     states: {
         "Base State": {
             "${_Group}": [
-                ["style", "top", '66px'],
+                ["style", "top", '141px'],
                 ["transform", "scaleY", '0.6'],
                 ["transform", "scaleX", '0.6'],
                 ["style", "opacity", '0'],
@@ -84,8 +76,8 @@ var symbols = {
             ],
             "${_noneofour}": [
                 ["style", "line-height", '97px'],
-                ["color", "color", 'rgba(181,189,0,1.00)'],
-                ["style", "font-weight", '500'],
+                ["color", "color", 'rgba(99,99,99,1.00)'],
+                ["style", "font-weight", '100'],
                 ["style", "left", '0px'],
                 ["style", "width", '872px'],
                 ["style", "top", '583px'],
