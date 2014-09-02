@@ -68,7 +68,7 @@ var symbols = {
                     id: 'descriptionCOPY',
                     type: 'text',
                     rect: ['0px', '78px','640px','181px','auto', 'auto'],
-                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas <br>City’s experience of World War I.",
+                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas City’s experience of World War I.",
                     align: "center",
                     font: ['Oswald, sans-serif', 34, "rgba(255,255,255,1.00)", "300", "none", "normal"],
                     filter: [0, 0, 1, 1, 0, 0, 0, 0, "rgba(0,0,0,0)", 0, 0, 0]
@@ -93,7 +93,7 @@ var symbols = {
                     id: 'description2',
                     type: 'text',
                     rect: ['0px', '78px','640px','181px','auto', 'auto'],
-                    text: "Residents celebrate Community Days each year <br>around the 4th of July with a pancake feed, parade <br>through Old Down Town, a pet show, and fireworks.",
+                    text: "Residents celebrate Community Days each year <br>around the 4th of July with a pancake feed, parade through Old Down Town, and fireworks.",
                     align: "center",
                     font: ['Oswald, sans-serif', 34, "rgba(255,255,255,1.00)", "300", "none", "normal"],
                     filter: [0, 0, 1, 1, 0, 0, 0, 0, "rgba(0,0,0,0)", 0, 0, 0]
@@ -118,7 +118,7 @@ var symbols = {
                     id: 'description2Copy',
                     type: 'text',
                     rect: ['0px', '78px','640px','181px','auto', 'auto'],
-                    text: "Residents celebrate Community Days each year <br>around the 4th of July with a pancake feed, parade <br>through Old Down Town, a pet show, and fireworks.",
+                    text: "Residents celebrate Community Days each year <br>around the 4th of July with a pancake feed, parade through Old Down Town, and fireworks.",
                     align: "center",
                     font: ['Oswald, sans-serif', 34, "rgba(255,255,255,1.00)", "300", "none", "normal"],
                     filter: [0, 0, 1, 1, 0, 0, 0, 8, "rgba(0,0,0,0)", 0, 0, 0]
@@ -143,7 +143,7 @@ var symbols = {
                     id: 'descriptionCopy',
                     type: 'text',
                     rect: ['0px', '78px','640px','181px','auto', 'auto'],
-                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas City’s <br>experience of World War I.",
+                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas City’s experience of World War I.",
                     align: "center",
                     font: ['Oswald, sans-serif', 34, "rgba(255,255,255,1.00)", "300", "none", "normal"],
                     filter: [0, 0, 1, 1, 0, 0, 0, 0, "rgba(0,0,0,0)", 0, 0, 0]

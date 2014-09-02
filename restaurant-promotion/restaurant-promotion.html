@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="restaurant-promotion.css">
+</head>
+    <body>
+        <iframe id="content" frameBorder="0"></iframe>
+        <script>
+            (function() {
+                var e = document.getElementById('content'),
+                    f = function( el, url ) {
+                        el.src = url;
+                    },
+                    urls = ['http://rise-vision.github.io/content-templates/restaurant-promotion/fresh-prepared/fresh-prepared.html','http://rise-vision.github.io/content-templates/restaurant-promotion/sourced-locally/sourced-locally.html','http://rise-vision.github.io/content-templates/restaurant-promotion/chef-profile/chef-profile.html'
+                    ],
+                    i = 0,
+                    l = urls.length;
+
+                    (function rotation() {
+                        if ( i != l-1 ) { 
+                            i++
+                        } else {
+                            i = 0;
+                        }
+                        f( e, urls[i] );
+                        setTimeout( arguments.callee, 10000 );
+                    })();
+            })();
+        </script>
+    </body>
+</html>
