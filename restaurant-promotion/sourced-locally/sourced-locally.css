@@ -52,24 +52,23 @@
 #github {
 	 width:13%;
 	 height:4%;
-	 left:2.5%;
+	 left:7.5%;
 	 top:92.5%;
 	 z-index:4;
 	 margin-left:-1%;
 	 position:absolute;
 }
 
+	
 #btn {
 	
 	color:white;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	text-decoration: none;
 	font-size:34px;
-	opacity:.6;
-	background-color:red;
-
-
+	opacity:.5;
 }
+
 
 @media only screen and (min-width: 1280px) {
 	    #btn {
@@ -100,20 +99,15 @@
 	
 
 #rise {
-	opacity:.6;
+	opacity:.5;
 	width:5%;
 	height:4%;
-	left:15%;
+	left:2.5%;
 	top:92.5%;
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
-	background-color:red;
 
 }
 
-@media only screen and (max-width: 1280px) {
-	    #rise {
-			left:17%;
-	    }
-	}
+
