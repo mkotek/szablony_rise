@@ -98,6 +98,7 @@
 	
 
 #rise {
+	opacity:.6;
 	width:5%;
 	height:4%;
 	left:15%;
@@ -108,7 +109,7 @@
 
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (max-width: 1280px) {
 	    #rise {
 			left:17%;
 	    }
