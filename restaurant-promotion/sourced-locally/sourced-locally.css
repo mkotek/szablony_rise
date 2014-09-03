@@ -66,6 +66,8 @@
 	text-decoration: none;
 	font-size:34px;
 	opacity:.6;
+	background-color:red;
+
 
 }
 
@@ -106,6 +108,7 @@
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
+	background-color:red;
 
 }
 
