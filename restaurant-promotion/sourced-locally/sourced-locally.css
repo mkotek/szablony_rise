@@ -1,6 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
+
 #container {
 	height:100%;
 	width:100%;
@@ -49,8 +50,8 @@
 }
 
 #github {
-	 width:2.5%;
-	 height:5%;
+	 width:12%;
+	 height:4%;
 	 left:2.5%;
 	 top:92.5%;
 	 z-index:4;
@@ -58,14 +59,54 @@
 	 position:absolute;
 }
 
+.btn {
+	
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:34px;
+	opacity:.6;
+
+}
+
+@media only screen and (min-width: 1280px) {
+	    .btn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    .btn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        .btn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    .btn {
+			font-size: 50px;
+	    }
+	}
+	
+
+
 #rise {
-	width:2.5%;
-	height:5%;
-	left:6%;
+	width:5%;
+	height:4%;
+	left:15%;
 	top:92.5%;
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
+
 }
 
 
