@@ -50,7 +50,7 @@
 }
 
 #github {
-	 width:12%;
+	 width:13%;
 	 height:4%;
 	 left:2.5%;
 	 top:92.5%;
@@ -59,7 +59,7 @@
 	 position:absolute;
 }
 
-.btn {
+#btn {
 	
 	color:white;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
@@ -70,33 +70,32 @@
 }
 
 @media only screen and (min-width: 1280px) {
-	    .btn {
-			font-size:24px;
+	    #btn {
+			font-size:25px;
 	    }
 	}
 	
 	/* 1360x768 */
 	@media only screen and (min-width: 1360px) {
-	    .btn {
+	    #btn {
 			font-size:24px;
 	    }
 	}
 	
 	/* 1920x1080*/
 	@media only screen and (min-width: 1920px) {	    
-        .btn {
+        #btn {
 			font-size: 34px;
 	    }
 	}
 	
 	/* 3840x2160 */
 	@media screen and (min-width: 2200px) {
-	    .btn {
-			font-size: 50px;
+	    #btn {
+			font-size: 64px;
 	    }
 	}
 	
-
 
 #rise {
 	width:5%;
@@ -109,4 +108,8 @@
 
 }
 
-
+@media only screen and (min-width: 1280px) {
+	    #rise {
+			left:17%;
+	    }
+	}
