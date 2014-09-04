@@ -78,14 +78,14 @@
 
 	@media only screen and (min-width: 1280px) {
 	    #gitbtn {
-			font-size:24px;
+			font-size:25px;
 	    }
 	}
 	
 	/* 1360x768 */
 	@media only screen and (min-width: 1360px) {
 	    #gitbtn {
-			font-size:24px;
+			font-size:25px;
 	    }
 	}
 	
