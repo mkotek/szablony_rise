@@ -1,0 +1,1297 @@
+/* This code is only meant for previewing your Reflow design. */
+.primaryContainer {
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 100%;
+    width: 100%;
+    background-image:url("img/background.jpg");
+    background-attachment: scroll;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+    position: relative;
+    background-position: 0% 0%;
+    background-repeat: no-repeat no-repeat;
+}
+
+#text {
+    float: left;
+    font-size: 337.5%;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 2.684564%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 5%;
+    position: absolute;
+    top: 4.087858%;
+    left: 0%;
+    min-width: 0%;
+}
+
+#text26 {
+    float: left;
+    font-size: 54px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 2.684564%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 33.984137%;
+    left: 51.19648%;
+    min-width: 0%;
+}
+
+#text10 {
+    float: left;
+    font-size: 54px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 7.565589%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 5%;
+    display: block;
+    position: absolute;
+    top: 14.765101%;
+    left: -0.00569365%;
+    min-width: 0%;
+}
+
+#text3 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 7%;
+    display: block;
+    position: absolute;
+    top: 9.212935%;
+    left: 0%;
+    min-width: 0%;
+}
+
+#text29 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 39.659282%;
+    left: 51.219254%;
+    min-width: 0%;
+}
+
+#text30 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 46.187653%;
+    left: 51.298152%;
+    min-width: 0%;
+}
+
+#text31 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 53.209846%;
+    left: 51.301406%;
+    min-width: 0%;
+}
+
+#text11 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 1%;
+    display: block;
+    position: absolute;
+    top: 14.887126%;
+    left: 25.538457%;
+    min-width: 0%;
+}
+
+#text21 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 1%;
+    display: block;
+    position: absolute;
+    top: 23.306894%;
+    left: 25.610847%;
+    min-width: 0%;
+}
+
+#text23 {
+    float: left;
+    font-size: 36px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 36px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 1%;
+    display: block;
+    position: absolute;
+    top: 30.018304%;
+    left: 25.568552%;
+    min-width: 0%;
+}
+
+#text12 {
+    float: left;
+    font-size: 30px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 30px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 2%;
+    display: block;
+    position: absolute;
+    top: 17.205613%;
+    left: 25.605967%;
+    min-width: 0%;
+}
+
+#text22 {
+    float: left;
+    font-size: 30px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 30px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 2%;
+    display: block;
+    position: absolute;
+    top: 25.625381%;
+    left: 25.569365%;
+    min-width: 0%;
+}
+
+#text25 {
+    float: left;
+    font-size: 30px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 30px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 2%;
+    display: block;
+    position: absolute;
+    top: 32.336791%;
+    left: 25.569365%;
+    min-width: 0%;
+}
+
+#text24 {
+    float: left;
+    font-size: 24px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 24px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    font-style: italic;
+    position: absolute;
+    top: 29.164124%;
+    left: 51.243656%;
+    min-width: 0%;
+}
+
+#text56 {
+    float: left;
+    font-size: 24px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 24px;
+    clear: none;
+    min-height: 2.318487%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 5.7%;
+    display: block;
+    font-style: italic;
+    position: absolute;
+    top: 63.031955%;
+    left: 25.629555%;
+    min-width: 0%;
+}
+
+#text54 {
+    float: left;
+    font-size: 28px;
+    width: 23.198957%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 28px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 57.235738%;
+    left: 51.220881%;
+    min-width: 0%;
+}
+
+#text55 {
+    float: left;
+    font-size: 28px;
+    width: 48.873316%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 28px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(226, 24, 54);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 3%;
+    display: block;
+    position: absolute;
+    top: 59.493212%;
+    left: 51.13629%;
+    min-width: 0%;
+}
+
+#textspan {
+    float: none;
+    font-size: 28px;
+    line-height: 28px;
+    color: rgb(99, 99, 99);
+    width: 0px;
+    height: 0px;
+    min-height: 0%;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+#image1 {
+    float: left;
+    width: auto;
+    height: auto;
+    clear: none;
+    color: rgb(0, 0, 0);
+    padding: 1%;
+    max-width: 10.33861%;
+    position: absolute;
+    top: 40.024405%;
+    left: 38.475241%;
+    min-height: 0%;
+    min-width: 0%;
+}
+
+#image {
+    float: left;
+    width: auto;
+    max-width: 1.813805%;
+    height: auto;
+    clear: both;
+    color: rgb(0, 0, 0);
+    position: absolute;
+    top: 8.785845%;
+    left: 5.046883%;
+    min-height: 0%;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+#text1 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 7.38255%;
+    left: 25.629555%;
+    min-width: 0%;
+}
+
+#text2 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 7.38255%;
+    left: 38.401223%;
+    min-width: 0%;
+}
+
+#text5 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 30.003091%;
+    min-width: 0%;
+}
+
+#text6 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 31.504587%;
+    min-width: 0%;
+}
+
+#text4 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 29.023783%;
+    min-width: 0%;
+}
+
+#text7 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 41.806026%;
+    min-width: 0%;
+}
+
+#text8 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 42.783706%;
+    min-width: 0%;
+}
+
+#text9 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 8.602807%;
+    left: 44.28439%;
+    min-width: 0%;
+}
+
+#text27 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 37.278829%;
+    left: 76.397384%;
+    min-width: 0%;
+}
+
+#text28 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 38.377059%;
+    left: 89.644066%;
+    min-width: 0%;
+}
+
+#text32 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.571576%;
+    left: 80.268252%;
+    min-width: 0%;
+}
+
+#text33 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.571576%;
+    left: 81.24756%;
+    min-width: 0%;
+}
+
+#text34 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.571576%;
+    left: 82.745803%;
+    min-width: 0%;
+}
+
+#text35 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.571576%;
+    left: 93.047241%;
+    min-width: 0%;
+}
+
+#text36 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.571576%;
+    left: 94.026549%;
+    min-width: 0%;
+}
+
+#text51 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 39.516283%;
+    left: 95.537806%;
+    min-width: 0%;
+}
+
+#text52 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.922628%;
+    left: 95.545126%;
+    min-width: 0%;
+}
+
+#text43 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.977921%;
+    left: 94.035496%;
+    min-width: 0%;
+}
+
+#text42 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.977921%;
+    left: 93.057002%;
+    min-width: 0%;
+}
+
+#text41 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.977921%;
+    left: 82.753937%;
+    min-width: 0%;
+}
+
+#text40 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.977921%;
+    left: 81.25488%;
+    min-width: 0%;
+}
+
+#text39 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 45.977921%;
+    left: 80.277199%;
+    min-width: 0%;
+}
+
+#text38 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 44.757665%;
+    left: 89.65708%;
+    min-width: 0%;
+}
+
+#text37 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 44.757665%;
+    left: 76.881344%;
+    min-width: 0%;
+}
+
+#text44 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 51.744585%;
+    left: 76.885411%;
+    min-width: 0%;
+}
+
+#text45 {
+    float: left;
+    font-size: 20px;
+    width: 10.366317%;
+    height: auto;
+    text-align: center;
+    font-weight: 900;
+    line-height: 20px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 51.744585%;
+    left: 89.66196%;
+    min-width: 0%;
+}
+
+#text46 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.964841%;
+    left: 80.28208%;
+    min-width: 0%;
+}
+
+#text47 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.964841%;
+    left: 81.259761%;
+    min-width: 0%;
+}
+
+#text48 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.964841%;
+    left: 82.75963%;
+    min-width: 0%;
+}
+
+#text49 {
+    float: left;
+    font-size: 30px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.964841%;
+    left: 93.058628%;
+    min-width: 0%;
+}
+
+#text50 {
+    float: left;
+    font-size: 54px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 54px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.964841%;
+    left: 94.036309%;
+    min-width: 0%;
+}
+
+#text53 {
+    float: left;
+    font-size: 20px;
+    width: 1.500594%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 52.909549%;
+    left: 95.54838%;
+    min-width: 0%;
+}
+
+#text13 {
+    float: left;
+    font-size: 24px;
+    width: 10.366317%;
+    height: auto;
+    text-align: right;
+    font-weight: 900;
+    line-height: 24px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 0px;
+    display: block;
+    position: absolute;
+    top: 23.184869%;
+    left: 0.06832379%;
+    min-width: 0%;
+}
+
+#text14 {
+    float: left;
+    font-size: 44px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.649176%;
+    left: 5.901061%;
+    min-width: 0%;
+}
+
+#text15 {
+    float: left;
+    font-size: 84px;
+    width: 2.172478%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 84px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.649176%;
+    left: 6.878742%;
+    min-width: 0%;
+}
+
+#text16 {
+    float: left;
+    font-size: 28px;
+    width: 1.348719%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.649176%;
+    left: 9.053716%;
+    min-width: 0%;
+}
+
+#text17 {
+    float: left;
+    font-size: 24px;
+    width: 10.366317%;
+    height: auto;
+    text-align: right;
+    font-weight: 900;
+    line-height: 24px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0% 0% 0% 0px;
+    display: block;
+    position: absolute;
+    top: 23.306894%;
+    left: 12.787936%;
+    min-width: 0%;
+}
+
+#text18 {
+    float: left;
+    font-size: 44px;
+    width: 0.97728473%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 50px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.893228%;
+    left: 18.706891%;
+    min-width: 0%;
+}
+
+#text19 {
+    float: left;
+    font-size: 84px;
+    width: 2.172478%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 84px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.893228%;
+    left: 19.690265%;
+    min-width: 0%;
+}
+
+#text20 {
+    float: left;
+    font-size: 28px;
+    width: 1.348719%;
+    height: auto;
+    text-align: left;
+    font-weight: 900;
+    line-height: 35px;
+    clear: none;
+    min-height: 0%;
+    color: rgb(99, 99, 99);
+    font-family: museo-sans-condensed;
+    padding: 0%;
+    display: block;
+    position: absolute;
+    top: 24.893228%;
+    left: 21.859546%;
+    min-width: 0%;
+}
+
+#box2 {
+    float: left;
+    height: 2px;
+    clear: none;
+    width: 21.41112%;
+    display: block;
+    background-color: rgb(226, 24, 54);
+    padding: 0%;
+    position: absolute;
+    top: 29.774253%;
+    left: 25.569365%;
+    min-height: 0%;
+    min-width: 0%;
+}
+
+#box4 {
+    float: left;
+    height: 2px;
+    clear: none;
+    width: 42.615887%;
+    background-color: rgb(99, 99, 99);
+    position: absolute;
+    top: 43.78146%;
+    left: 54.422339%;
+    min-height: 0%;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+#box5 {
+    float: left;
+    height: 2px;
+    clear: none;
+    width: 42.615887%;
+    display: block;
+    background-color: rgb(99, 99, 99);
+    position: absolute;
+    top: 50.545302%;
+    left: 54.429659%;
+    min-height: 0%;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
+#box1 {
+    float: left;
+    height: 2px;
+    clear: none;
+    width: 21.41112%;
+    display: block;
+    padding: 0%;
+    background-color: rgb(226, 24, 54);
+    position: absolute;
+    top: 23.062843%;
+    left: 25.629555%;
+    min-height: 0%;
+    min-width: 0%;
+}
+
+#box {
+    float: left;
+    height: 2px;
+    clear: none;
+    width: 21.41112%;
+    display: block;
+    padding: 0%;
+    background-color: rgb(226, 24, 54);
+    position: absolute;
+    top: 14.765101%;
+    left: 25.628742%;
+    min-height: 0%;
+    min-width: 0%;
+}
+
+#box3 {
+    float: left;
+    height: 940px;
+    clear: none;
+    width: 1px;
+    background-color: rgb(99, 99, 99);
+    position: absolute;
+    top: 4.087858%;
+    left: 49.99756%;
+    min-height: 0%;
+    min-width: 0%;
+    padding-top: 0%;
+    padding-right: 0%;
+    padding-bottom: 0%;
+}
+
