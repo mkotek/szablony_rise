@@ -1426,7 +1426,11 @@
     #text3 {
         font-size: 72px;
         line-height: 72px;
-        top: 244.5112949px;
+        top: 235.921875px;
+        padding-left: 5%;
+        left: 0%;
+        height: auto;
+        width: 19.689941%;
     }
 
     #text1 {
@@ -1499,12 +1503,12 @@
 
     #image {
         top: 784.484375px;
-        left: 41.396077%;
+        left: 41.395264%;
     }
 
     #image1 {
-        top: 241.15625px;
-        left: 5.046794%;
+        top: 235.921875px;
+        left: 19.689941%;
     }
 
     #text13 {
