@@ -1336,19 +1336,25 @@
     #text11 {
         font-size: 72px;
         line-height: 72px;
-        top: 395.10432404px;
+        top: 405.09375px;
+        left: 25.53833%;
+        padding-left: 2%;
     }
 
     #text21 {
         font-size: 72px;
         line-height: 72px;
-        top: 618.5649667600001px;
+        top: 711.5625px;
+        left: 25.610758%;
+        padding-left: 2%;
     }
 
     #text23 {
         font-size: 72px;
         line-height: 72px;
-        top: 796.68578816px;
+        top: 961.671875px;
+        left: 25.568441%;
+        padding-left: 2%;
     }
 
     #text29 {
@@ -1389,24 +1395,27 @@
     #text25 {
         font-size: 60px;
         line-height: 60px;
-        top: 874.28125px;
+        top: 1039.28125px;
         left: 25.569255%;
+        padding-left: 2%;
     }
 
     #text22 {
         font-size: 60px;
         line-height: 60px;
-        top: 696.171875px;
+        top: 789.171875px;
         left: 25.569255%;
         height: auto;
         min-height: 0px;
+        padding-left: 2%;
     }
 
     #text12 {
         font-size: 60px;
         line-height: 60px;
-        top: 471.6875px;
+        top: 481.6875px;
         left: 25.605876%;
+        padding-left: 2%;
     }
 
     #textspan {
@@ -1489,12 +1498,12 @@
     }
 
     #image {
-        top: 691.484375px;
-        left: 41.370036%;
+        top: 784.484375px;
+        left: 41.396077%;
     }
 
     #image1 {
-        top: 233.15625px;
+        top: 241.15625px;
         left: 5.046794%;
     }
 
@@ -1723,11 +1732,13 @@
     }
 
     #box1 {
-        top: 612.0878532199999px;
+        top: 700.078125px;
+        left: 25.629476%;
     }
 
     #box2 {
-        top: 790.20867462px;
+        top: 951.203125px;
+        left: 25.569255%;
     }
 
     #box3 {
@@ -1737,9 +1748,10 @@
     }
 
     #image2 {
-        top: 1062.2477087px;
+        top: 1418.234375px;
         max-width: 14.24%;
         width: 400px;
+        left: 38.474935%;
     }
 }
 
@@ -1932,7 +1944,7 @@
 
     #text11 {
         font-family: cabin-condensed;
-        top: 226.09375px;
+        top: 230.09375px;
         left: 25.629069%;
         padding-left: 2%;
         font-size: 36px;
@@ -1941,17 +1953,18 @@
 
     #text12 {
         font-family: cabin-condensed;
-        top: 267.796875px;
+        top: 271.796875px;
         left: 25.629883%;
         right: auto;
         font-size: 30px;
         line-height: 30px;
+        padding-left: 2%;
     }
 
     #text21 {
         font-family: cabin-condensed;
-        top: 361.578125px;
-        left: 25.63%;
+        top: 379.578125px;
+        left: 25.629883%;
         padding-left: 2%;
         right: auto;
         font-size: 36px;
@@ -1960,31 +1973,33 @@
 
     #text22 {
         font-family: cabin-condensed;
-        top: 404.265625px;
+        top: 422.265625px;
         left: 25.629883%;
         height: auto;
         width: 15.922463%;
         right: auto;
         font-size: 30px;
         line-height: 30px;
+        padding-left: 2%;
     }
 
     #text25 {
         font-family: cabin-condensed;
-        top: 516.609375px;
-        left: 25.63%;
+        top: 541.609375px;
+        left: 25.629883%;
         height: auto;
         min-height: 90.34375px;
         width: 23.198242%;
         right: auto;
         font-size: 30px;
         line-height: 30px;
+        padding-left: 2%;
     }
 
     #text23 {
         font-family: cabin-condensed;
-        top: 473.859375px;
-        left: 25.63%;
+        top: 498.859375px;
+        left: 25.629883%;
         padding-left: 2%;
         right: auto;
         font-size: 36px;
@@ -2255,7 +2270,7 @@
     }
 
     #image2 {
-        top: 606.96875px;
+        top: 715px;
         left: 38.515625%;
         width: 200px;
     }
@@ -2267,13 +2282,13 @@
     }
 
     #box1 {
-        top: 360.328125px;
+        top: 373.328125px;
         left: 25.628255%;
         width: 23.11%;
     }
 
     #box2 {
-        top: 469.953125px;
+        top: 491.953125px;
         left: 25.568034%;
         width: 23.11%;
     }
@@ -2322,7 +2337,7 @@
     }
 
     #image {
-        top: 399.1875px;
+        top: 416.265625px;
         left: 41.594238%;
         height: auto;
         width: auto;
@@ -2391,7 +2406,7 @@
     #text11 {
         font-size: 23px;
         line-height: 23px;
-        top: 193.09375px;
+        top: 199.09375px;
         left: 25.537684%;
         height: auto;
         min-height: 0px;
@@ -2400,7 +2415,7 @@
     #text21 {
         font-size: 23px;
         line-height: 23px;
-        top: 277.9375px;
+        top: 286.9375px;
         left: 25.610064%;
         height: auto;
         min-height: 0px;
@@ -2409,7 +2424,7 @@
     #text23 {
         font-size: 23px;
         line-height: 23px;
-        top: 350.46875px;
+        top: 358.46875px;
         left: 25.567555%;
         height: auto;
         min-height: 0px;
@@ -2418,14 +2433,14 @@
     #text12 {
         font-size: 19px;
         line-height: 19px;
-        top: 220.265625px;
+        top: 226.265625px;
         left: 25.605469%;
     }
 
     #text22 {
         font-size: 19px;
         line-height: 19px;
-        top: 304.875px;
+        top: 313.875px;
         left: 25.568704%;
         height: auto;
         width: 14.15671%;
@@ -2434,7 +2449,7 @@
     #text25 {
         font-size: 19px;
         line-height: 19px;
-        top: 379.203125px;
+        top: 387.203125px;
         left: 25.568704%;
         height: auto;
         min-height: 0px;
@@ -2462,15 +2477,16 @@
     #text24 {
         font-size: 15px;
         line-height: 15px;
-        top: 373.36993126px;
-        left: 51.242676%;
+        top: 358.46875px;
+        left: 51.237362%;
     }
 
     #text56 {
         font-size: 15px;
         line-height: 15px;
-        top: 708.09374253px;
+        top: 718px;
         left: 25.628447%;
+        padding-left: 7.7%;
     }
 
     #text1 {
@@ -2749,7 +2765,7 @@
     }
 
     #image1 {
-        top: 300.875px;
+        top: 309.875px;
         left: 544.546875px;
     }
 
@@ -2759,12 +2775,12 @@
     }
 
     #box1 {
-        top: 274.84375px;
+        top: 279.84375px;
         left: 25.628447%;
     }
 
     #box2 {
-        top: 347.390625px;
+        top: 351.390625px;
         left: 25.568704%;
     }
 
@@ -2783,8 +2799,8 @@
     }
 
     #image2 {
-        top: 424.20735851999996px;
-        left: 38.474121%;
+        top: 513.375px;
+        left: 38.473116%;
         width: 140px;
     }
 
@@ -2844,24 +2860,27 @@
     }
 
     #text11 {
-        top: 199.22617223px;
+        top: 204.21875px;
+        left: 25.537109%;
     }
 
     #text12 {
-        top: 227.828125px;
+        top: 232.828125px;
         left: 25.605469%;
     }
 
     #text21 {
-        top: 294.21132776999997px;
+        top: 309.203125px;
+        left: 25.609131%;
     }
 
     #box1 {
-        top: 290.35343602px;
+        top: 303.34375px;
+        left: 25.627441%;
     }
 
     #text22 {
-        top: 322.8125px;
+        top: 337.8125px;
         left: 25.567627%;
         height: auto;
         width: 15.415039%;
@@ -2872,11 +2891,12 @@
     }
 
     #text23 {
-        top: 386.78530294px;
+        top: 388.78125px;
+        left: 25.566406%;
     }
 
     #text25 {
-        top: 415.390625px;
+        top: 417.390625px;
         left: 25.567627%;
         height: auto;
         min-height: 0px;
@@ -2887,7 +2907,8 @@
     }
 
     #image2 {
-        top: 528.2519078099999px;
+        top: 582.046875px;
+        left: 38.4729%;
     }
 
     #text9 {
@@ -3078,7 +3099,7 @@
     }
 
     #image {
-        top: 317.203125px;
+        top: 330.203125px;
         left: 524.578125px;
     }
 
