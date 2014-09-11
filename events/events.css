@@ -1,17 +1,71 @@
 @charset "UTF-8";
 /* CSS Document */
+#github {
+	 width:15%;
+	 height:4%;
+	 left:7.5%;
+	 top:92.5%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+	 z-index:4;
+}
+	
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:25px;
+	opacity:.5;
+	z-index:4;
+}
 
-/* Header Text */
-
-
-
+	@media only screen and (min-width: 1280px) {
+	    #gitbtn {
+			font-size:25px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #gitbtn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #gitbtn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #gitbtn {
+			font-size: 64px;
+	    }
+	}
+	
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4%;
+	left:2.5%;
+	top:92.5%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+	z-index:5;
+}
+ 
 /* Header Text */
     
     #title {
 		font-family: 'Oswald', sans-serif;
         background: -webkit-linear-gradient(top, rgba(254,255,255,0.2) 0%,rgba(255,255,255,0.7) 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  		-webkit-background-clip: text;
+  		-webkit-text-fill-color: transparent;
         text-align: center;
         font-size: 144px;
 		font-weight: bold;

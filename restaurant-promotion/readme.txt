@@ -2,13 +2,15 @@
 **Copyright © 2010 - May 15, 2014 Rise Vision Incorporated.**
 Use of this software is governed by the GPLv3 license (available in the LICENSE file).
 
-Rise Vision Content Templates - An assortement of templates to be used to display content within http://rvauser.appspot.com/.
+Rise Vision Content Templates - An assortment of templates to be used to display content within http://rvauser.appspot.com/.
 
 **How to get started?**
 How to get started? This repository is organized by folders each containing its own separate template named by market or subject matter. 
 
-Inside each template folder you will find a html file with the same name as the folder. 
-To use within rvauser.appspot.com copy the link to this page where you have it hosted and add to a schedule by url. If you would like to view the demo for this template the url is: http://rise-vision.github.io/content-templates/xxx/xxx.html where xxx is the name of the folder and html file name. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.
+Inside each template folder you will find a html file with the same name as the folder.
+restaurant-promtion.html combines all three promotions by rotating them in an iframe. You can directly add this url to a schedule within rvauser.appspot.com. if you only want to use specific promotions you can remove unwanted ones from the javascript array inside this file.
+
+The url is: http://rise-vision.github.io/content-templates/xxx/xxx.html where xxx is the name of the folder and html file name. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.
 
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
 

@@ -32,7 +32,7 @@ var symbols = {
                     id: 'paragraph',
                     type: 'text',
                     rect: ['1px', '174px','1801px','252px','auto', 'auto'],
-                    text: "Todd interprets cuisine in in a contemporary and refined way with ingredients being the key elements. He only uses the freshest and most seasonal products, strictly sourced for their quality and provenance.",
+                    text: "Todd interprets cuisine in a contemporary and refined way with ingredients being the key elements. He only uses the freshest and most seasonal products, strictly sourced for their quality and provenance.",
                     align: "left",
                     font: ['Oswald, sans-serif', 68, "rgba(99,99,99,1.00)", "100", "none", "normal"]
                 },
