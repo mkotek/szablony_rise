@@ -1307,7 +1307,7 @@
     padding-bottom: 0%;
 }
 
-#image {
+#Section2Icon {
     float: left;
     width: auto;
     max-width: 1.813805%;
@@ -1549,7 +1549,7 @@
         left: 51.24349%;
     }
 
-    #image {
+    #Section2Icon {
         top: 784.484375px;
         left: 41.395264%;
     }
@@ -2395,7 +2395,7 @@
         line-height: 35px;
     }
 
-    #image {
+    #Section2Icon {
         top: 416.265625px;
         left: 41.594238%;
         height: auto;
@@ -2883,7 +2883,7 @@
         right: auto;
     }
 
-    #image {
+    #Section2Icon {
         top: 107.984375px;
         left: 18.142233%;
     }
@@ -3158,8 +3158,8 @@
         left: 95.544434%;
     }
 
-    #image {
-        top: 330.203125px;
+    #Section2Icon {
+        top: 335.203125px;
         left: 524.578125px;
     }
 
