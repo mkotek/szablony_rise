@@ -1,59 +1,5 @@
 /* This code is only meant for previewing your Reflow design. */
-#github {
-	 width:15%;
-	 height:4%;
-	 left:7.5%;
-	 top:92.5%;
-	 z-index:4;
-	 margin-left:-1%;
-	 position:absolute;
-}
-	
-#gitbtn {
-	color:white;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
-	text-decoration: none;
-	font-size:25px;
-	opacity:.6;
-}
 
-	@media only screen and (min-width: 1280px) {
-	    #gitbtn {
-			font-size:25px;
-	    }
-	}
-	
-	/* 1360x768 */
-	@media only screen and (min-width: 1360px) {
-	    #gitbtn {
-			font-size:24px;
-	    }
-	}
-	
-	/* 1920x1080*/
-	@media only screen and (min-width: 1920px) {	    
-        #gitbtn {
-			font-size: 34px;
-	    }
-	}
-	
-	/* 3840x2160 */
-	@media screen and (min-width: 2200px) {
-	    #gitbtn {
-			font-size: 64px;
-	    }
-	}
-	
-#rise {
-	opacity:.5;
-	width:5%;
-	height:4%;
-	left:2.5%;
-	top:92.5%;
-	z-index:5;
-	margin-left:-1%;
-	position:absolute;
-}
 .primaryContainer {
     height: auto;
     margin-left: auto;
@@ -1619,7 +1565,7 @@
         top: 615.32642326px;
     }
 
-    #Section2Halfsize {
+    #Section2Fullsize {
         font-size: 48px;
         line-height: 48px;
         top: 618.5649667600001px;
@@ -1628,7 +1574,7 @@
         color: rgb(99, 99, 99);
         font-family: cabin-condensed;
     }
-
+	
     #Section2Dollar1 {
         font-size: 88px;
         line-height: 100px;
@@ -2671,7 +2617,7 @@
         top: 278.71875px;
         left: 12.786075%;
     }
-
+	
     #Section2Dollar1 {
         font-size: 29px;
         line-height: 40px;
@@ -3276,3 +3222,58 @@
     }
 }
 
+#github {
+	 width:15%;
+	 height:4%;
+	 left:7.5%;
+	 top:92.5%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+}
+	
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:25px;
+	opacity:.6;
+}
+
+	@media only screen and (min-width: 1280px) {
+	    #gitbtn {
+			font-size:25px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #gitbtn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #gitbtn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #gitbtn {
+			font-size: 64px;
+	    }
+	}
+	
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4%;
+	left:2.5%;
+	top:92.5%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+}
