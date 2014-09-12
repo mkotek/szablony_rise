@@ -15,7 +15,7 @@
     background-repeat: no-repeat no-repeat;
 }
 
-#text {
+#Section1Header {
     float: left;
     font-size: 54px;
     width: 23.198957%;
@@ -74,7 +74,7 @@
     min-width: 0%;
 }
 
-#text3 {
+#Section1Subhead {
     float: left;
     font-size: 36px;
     width: 23.198957%;
@@ -385,7 +385,7 @@
     min-width: 0%;
 }
 
-#image1 {
+#Section1Icon {
     float: left;
     width: auto;
     max-width: 1.813805%;
@@ -408,12 +408,12 @@
 
 @-webkit-keyframes pulse {
     0% {    transform: scale(1); }
-    50% {   transform: scale(1.1);}
+    50% {   transform: scale(1.2);}
     100% {  transform: scale(1); }
 }
 
 
-#text1 {
+#Section1Halfsize {
     float: left;
     font-size: 20px;
     width: 10.366317%;
@@ -433,7 +433,7 @@
     min-width: 0%;
 }
 
-#text2 {
+#Section1Fullsize {
     float: left;
     font-size: 20px;
     width: 10.366317%;
@@ -453,7 +453,7 @@
     min-width: 0%;
 }
 
-#text5 {
+#Section1Price1 {
     float: left;
     font-size: 54px;
     width: 1.500594%;
@@ -473,7 +473,7 @@
     min-width: 0%;
 }
 
-#text6 {
+#Section1Change1 {
     float: left;
     font-size: 20px;
     width: 1.500594%;
@@ -493,7 +493,7 @@
     min-width: 0%;
 }
 
-#text4 {
+#Section1Dollar1 {
     float: left;
     font-size: 30px;
     width: 0.97728473%;
@@ -513,7 +513,7 @@
     min-width: 0%;
 }
 
-#text7 {
+#Section1Dollar2 {
     float: left;
     font-size: 30px;
     width: 0.97728473%;
@@ -533,7 +533,7 @@
     min-width: 0%;
 }
 
-#text8 {
+#Section1Price2 {
     float: left;
     font-size: 54px;
     width: 1.500594%;
@@ -553,7 +553,7 @@
     min-width: 0%;
 }
 
-#text9 {
+#Section1Change2 {
     float: left;
     font-size: 20px;
     width: 1.500594%;
@@ -1295,7 +1295,7 @@
     float: left;
     height: 940px;
     clear: none;
-    width: 1px;
+    width: 1px;F
     background-color: rgb(99, 99, 99);
     position: absolute;
     top: 4.087858%;
@@ -1329,12 +1329,12 @@
 
 @-webkit-keyframes pulse {
     0% {    transform: scale(1); }
-    50% {   transform: scale(1.1);}
+    50% {   transform: scale(1.2);}
     100% {  transform: scale(1); }
 }
 
 @media only screen and (max-width: 3840px) {
-    #text {
+    #Section1Header {
         font-size: 108px;
         line-height: 108px;
         top: 108.49175131999999px;
@@ -1443,7 +1443,7 @@
         line-height: 60px;
     }
 
-    #text3 {
+    #Section1Subhead {
         font-size: 72px;
         line-height: 72px;
         top: 235.921875px;
@@ -1453,13 +1453,13 @@
         width: 19.689941%;
     }
 
-    #text1 {
+    #Section1Halfsize {
         font-size: 40px;
         line-height: 40px;
         top: 195.93287700000002px;
     }
 
-    #text2 {
+    #Section1Fullsize {
         font-size: 40px;
         line-height: 40px;
         top: 195.93287700000002px;
@@ -1554,7 +1554,7 @@
         left: 41.395264%;
     }
 
-    #image1 {
+    #Section1Icon {
         top: 235.921875px;
         left: 19.689941%;
 }
@@ -1611,13 +1611,13 @@
         top: 660.66627112px;
     }
 
-    #text4 {
+    #Section1Dollar1 {
         font-size: 60px;
         line-height: 100px;
         top: 228.31849778px;
     }
 
-    #text7 {
+    #Section1Dollar2 {
         font-size: 60px;
         line-height: 100px;
         top: 228.31849778px;
@@ -1665,13 +1665,13 @@
         left: 80.281982%;
     }
 
-    #text5 {
+    #Section1Price1 {
         font-size: 108px;
         line-height: 108px;
         top: 228.31849778px;
     }
 
-    #text8 {
+    #Section1Price2 {
         font-size: 108px;
         line-height: 108px;
         top: 228.31849778px;
@@ -1719,13 +1719,13 @@
         left: 94.036051%;
     }
 
-    #text6 {
+    #Section1Change1 {
         font-size: 40px;
         line-height: 70px;
         top: 228.31849778px;
     }
 
-    #text9 {
+    #Section1Change2 {
         font-size: 40px;
         line-height: 70px;
         top: 228.31849778px;
@@ -1814,7 +1814,7 @@
 }
 
 @media only screen and (max-width: 1920px) {
-    #text {
+    #Section1Header {
         font-size: 54px;
         font-family: cabin-condensed;
         top: 52px;
@@ -1848,7 +1848,7 @@
         line-height: 54px;
     }
 
-    #text3 {
+    #Section1Subhead {
         font-family: cabin-condensed;
         top: 126px;
         visibility: visible;
@@ -1936,7 +1936,7 @@
         line-height: 35px;
     }
 
-    #text4 {
+    #Section1Dollar1 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -1944,7 +1944,7 @@
         line-height: 50px;
     }
 
-    #text1 {
+    #Section1Halfsize {
         font-family: cabin-condensed;
         top: 106px;
         bottom: auto;
@@ -1953,7 +1953,7 @@
         line-height: 20px;
     }
 
-    #text5 {
+    #Section1Price1 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -1961,7 +1961,7 @@
         line-height: 54px;
     }
 
-    #text6 {
+    #Section1Change1 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -1969,7 +1969,7 @@
         line-height: 35px;
     }
 
-    #text2 {
+    #Section1Fullsize {
         font-family: cabin-condensed;
         top: 106px;
         left: 38.400879%;
@@ -1977,7 +1977,7 @@
         line-height: 20px;
     }
 
-    #text7 {
+    #Section1Dollar2 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -1985,7 +1985,7 @@
         line-height: 50px;
     }
 
-    #text8 {
+    #Section1Price2 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -1993,7 +1993,7 @@
         line-height: 54px;
     }
 
-    #text9 {
+    #Section1Change2 {
         font-family: cabin-condensed;
         top: 126px;
         bottom: auto;
@@ -2320,7 +2320,7 @@
         line-height: 35px;
     }
 
-    #image1 {
+    #Section1Icon {
         top: 126.890625px;
         left: 20.187988%;
         height: auto;
@@ -2411,7 +2411,7 @@
 }
 
 @media only screen and (max-width: 1360px) {
-    #text {
+    #Section1Header {
         font-size: 35px;
         line-height: 35px;
     }
@@ -2453,7 +2453,7 @@
         left: 51.30127%;
     }
 
-    #text3 {
+    #Section1Subhead {
         font-size: 23px;
         line-height: 23px;
         top: 112.140625px;
@@ -2548,14 +2548,14 @@
         padding-left: 7.7%;
     }
 
-    #text1 {
+    #Section1Halfsize {
         top: 91.58213675999998px;
         left: 25.628662%;
         font-size: 14px;
         line-height: 14px;
     }
 
-    #text2 {
+    #Section1Fullsize {
         font-size: 14px;
         line-height: 14px;
         top: 91.58213675999998px;
@@ -2646,14 +2646,14 @@
         left: 18.908548%;
     }
 
-    #text4 {
+    #Section1Dollar1 {
         font-size: 19px;
         line-height: 30px;
         top: 109.12274793000002px;
         left: 29.023438%;
     }
 
-    #text7 {
+    #Section1Dollar2 {
         font-size: 19px;
         line-height: 30px;
         top: 109.12274793000002px;
@@ -2702,14 +2702,14 @@
         left: 93.057861%;
     }
 
-    #text5 {
+    #Section1Price1 {
         font-size: 35px;
         line-height: 35px;
         top: 109.12274793000002px;
         left: 30.002441%;
     }
 
-    #text8 {
+    #Section1Price2 {
         font-size: 35px;
         line-height: 35px;
         top: 109.12274793000002px;
@@ -2758,14 +2758,14 @@
         left: 94.035645%;
     }
 
-    #text6 {
+    #Section1Change1 {
         font-size: 14px;
         line-height: 22px;
         top: 109.12274793000002px;
         left: 31.503906%;
     }
 
-    #text9 {
+    #Section1Change2 {
         font-size: 14px;
         line-height: 22px;
         top: 109.12274793000002px;
@@ -2823,7 +2823,7 @@
         background-repeat: no-repeat no-repeat;
     }
 
-    #image1 {
+    #Section1Icon {
         top: 309.875px;
         left: 544.546875px;
     }
@@ -2899,19 +2899,19 @@
         background-repeat: no-repeat no-repeat;
     }
 
-    #text4 {
+    #Section1Dollar1 {
         top: 119.90592831000001px;
     }
 
-    #text6 {
+    #Section1Change1 {
         top: 119.90592831000001px;
     }
 
-    #text5 {
+    #Section1Price1 {
         top: 119.90592831000001px;
     }
 
-    #text1 {
+    #Section1Halfsize {
         top: 100.63200692px;
     }
 
@@ -2962,7 +2962,7 @@
         min-height: 0px;
     }
 
-    #text2 {
+    #Section1Fullsize {
         top: 100.63200692px;
     }
 
@@ -2971,15 +2971,15 @@
         left: 38.4729%;
     }
 
-    #text9 {
+    #Section1Change2 {
         top: 119.90592831000001px;
     }
 
-    #text8 {
+    #Section1Price2 {
         top: 119.90592831000001px;
     }
 
-    #text7 {
+    #Section1Dollar2 {
         top: 119.90592831000001px;
     }
 
@@ -2988,7 +2988,7 @@
         left: 25.627441%;
     }
 
-    #image1 {
+    #Section1Icon {
         top: 110.890625px;
         left: 243.9375px;
     }
@@ -3163,7 +3163,7 @@
         left: 524.578125px;
     }
 
-    #text3 {
+    #Section1Subhead {
         top: 112.890625px;
         left: 0%;
         height: auto;
