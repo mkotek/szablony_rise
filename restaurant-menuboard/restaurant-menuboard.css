@@ -1,12 +1,66 @@
 /* This code is only meant for previewing your Reflow design. */
+#github {
+	 width:15%;
+	 height:4%;
+	 left:7.5%;
+	 top:92.5%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+}
+	
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:25px;
+	opacity:.6;
+}
 
+	@media only screen and (min-width: 1280px) {
+	    #gitbtn {
+			font-size:25px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #gitbtn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #gitbtn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #gitbtn {
+			font-size: 64px;
+	    }
+	}
+	
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4%;
+	left:2.5%;
+	top:92.5%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+}
 .primaryContainer {
     height: auto;
     margin-left: auto;
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    background-image:url("img/background.jpg");
+    background-image:url("images/background.jpg");
     background-attachment: scroll;
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -1831,7 +1885,7 @@
     }
 
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 1080px;
         background-size: 100% 1080px;
@@ -2815,7 +2869,7 @@
     }
 
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 768px;
         background-size: 100% 768px;
@@ -2891,7 +2945,7 @@
 
 @media only screen and (max-width: 1280px) {
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 850px;
         background-size: 100% 850px;
