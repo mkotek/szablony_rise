@@ -37,7 +37,7 @@
 #Section3Header {
     float: left;
     font-size: 54px;
-    width: 23.198957%;
+    width: 35%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -57,7 +57,7 @@
 #Section2Header {
     float: left;
     font-size: 54px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -157,7 +157,7 @@
 #Section2Subhead1 {
     float: left;
     font-size: 36px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -177,7 +177,7 @@
 #Section2Subhead2 {
     float: left;
     font-size: 36px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -1813,7 +1813,7 @@
     }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 3000px) {
     #Section1Header {
         font-size: 54px;
         font-family: cabin-condensed;
