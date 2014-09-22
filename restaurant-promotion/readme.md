@@ -60,7 +60,7 @@ If you would like more information on developing applications for Rise Vision pl
 
 * Logo - To change the logo image modify the the img tag within <div id="logo"> inside the template html file (named the same as the folder).
 
- If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com. 
+ If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
  
 **Additional Templates can be found here: https://github.com/Rise-Vision/content-templates**
 
