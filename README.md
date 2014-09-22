@@ -2,9 +2,7 @@
 
 ## Introduction
 
-*The Content Templates repository is organized by folders each folder contains its own separate template named by market or subject matter.
-
-Inside each template folder you will find a html file with the same name as the folder. To use within rvauser.appspot.com copy the link to this page and add to a schedule by url. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.*
+*The Content Templates repository is organized by folders each folder contains its own separate template named by market or subject matter. Inside each template folder you will find a html file with the same name as the folder. To use within rvauser.appspot.com copy the link to this page and add to a schedule by url. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.*
 
 Content Templates works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 
