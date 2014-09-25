@@ -6,7 +6,7 @@
     margin-right: auto;
     min-height: 100%;
     width: 100%;
-    background-image:url("img/background.jpg");
+    background-image:url("images/background.jpg");
     background-attachment: scroll;
     -webkit-background-size: 100%;
     background-size: 100%;
@@ -37,7 +37,7 @@
 #Section3Header {
     float: left;
     font-size: 54px;
-    width: 23.198957%;
+    width: 35%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -57,7 +57,7 @@
 #Section2Header {
     float: left;
     font-size: 54px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -157,7 +157,7 @@
 #Section2Subhead1 {
     float: left;
     font-size: 36px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -177,7 +177,7 @@
 #Section2Subhead2 {
     float: left;
     font-size: 36px;
-    width: 23.198957%;
+    width: 30%;
     height: auto;
     text-align: left;
     font-weight: 900;
@@ -1307,7 +1307,7 @@
     padding-bottom: 0%;
 }
 
-#image {
+#Section2Icon {
     float: left;
     width: auto;
     max-width: 1.813805%;
@@ -1549,7 +1549,7 @@
         left: 51.24349%;
     }
 
-    #image {
+    #Section2Icon {
         top: 784.484375px;
         left: 41.395264%;
     }
@@ -1565,7 +1565,7 @@
         top: 615.32642326px;
     }
 
-    #Section2Halfsize {
+    #Section2Fullsize {
         font-size: 48px;
         line-height: 48px;
         top: 618.5649667600001px;
@@ -1574,7 +1574,7 @@
         color: rgb(99, 99, 99);
         font-family: cabin-condensed;
     }
-
+	
     #Section2Dollar1 {
         font-size: 88px;
         line-height: 100px;
@@ -1813,7 +1813,7 @@
     }
 }
 
-@media only screen and (max-width: 1920px) {
+@media only screen and (max-width: 3000px) {
     #Section1Header {
         font-size: 54px;
         font-family: cabin-condensed;
@@ -1831,7 +1831,7 @@
     }
 
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 1080px;
         background-size: 100% 1080px;
@@ -2395,7 +2395,7 @@
         line-height: 35px;
     }
 
-    #image {
+    #Section2Icon {
         top: 416.265625px;
         left: 41.594238%;
         height: auto;
@@ -2617,7 +2617,7 @@
         top: 278.71875px;
         left: 12.786075%;
     }
-
+	
     #Section2Dollar1 {
         font-size: 29px;
         line-height: 40px;
@@ -2815,7 +2815,7 @@
     }
 
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 768px;
         background-size: 100% 768px;
@@ -2883,7 +2883,7 @@
         right: auto;
     }
 
-    #image {
+    #Section2Icon {
         top: 107.984375px;
         left: 18.142233%;
     }
@@ -2891,7 +2891,7 @@
 
 @media only screen and (max-width: 1280px) {
     .primaryContainer {
-        background-image:url("img/background.jpg");
+        background-image:url("images/background.jpg");
         background-attachment: scroll;
         -webkit-background-size: 100% 850px;
         background-size: 100% 850px;
@@ -3158,8 +3158,8 @@
         left: 95.544434%;
     }
 
-    #image {
-        top: 330.203125px;
+    #Section2Icon {
+        top: 335.203125px;
         left: 524.578125px;
     }
 
@@ -3222,3 +3222,58 @@
     }
 }
 
+#github {
+	 width:15%;
+	 height:4%;
+	 left:7.5%;
+	 top:92.5%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+}
+	
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:25px;
+	opacity:.6;
+}
+
+	@media only screen and (min-width: 1280px) {
+	    #gitbtn {
+			font-size:25px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #gitbtn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #gitbtn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #gitbtn {
+			font-size: 64px;
+	    }
+	}
+	
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4%;
+	left:2.5%;
+	top:92.5%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+}
