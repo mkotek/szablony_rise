@@ -68,7 +68,7 @@ var symbols = {
                     id: 'descriptionCOPY',
                     type: 'text',
                     rect: ['0px', '78px','640px','181px','auto', 'auto'],
-                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas City’s experience of World War I.",
+                    text: "Author and professor, Dr. James J. Heiman will <br>provide us with a first-hand account of Kansas <br>City’s experience of World War I.",
                     align: "center",
                     font: ['Oswald, sans-serif', 34, "rgba(255,255,255,1.00)", "300", "none", "normal"],
                     filter: [0, 0, 1, 1, 0, 0, 0, 0, "rgba(0,0,0,0)", 0, 0, 0]
