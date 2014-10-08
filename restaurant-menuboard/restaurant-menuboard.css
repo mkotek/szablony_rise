@@ -347,6 +347,7 @@ hr {
 	}
 
 /* footer icons */
+/* footer icons */
 #github {
 	 width:15%;
 	 height:4%;
@@ -355,6 +356,7 @@ hr {
 	 z-index:4;
 	 margin-left:-1%;
 	 position:absolute;
+	 z-index:4;
 }
 	
 #gitbtn {
@@ -362,7 +364,8 @@ hr {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	text-decoration: none;
 	font-size:25px;
-	opacity:.6;
+	opacity:.5;
+	z-index:4;
 }
 
 	@media only screen and (min-width: 1280px) {
@@ -401,4 +404,5 @@ hr {
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
+	z-index:5;
 }
