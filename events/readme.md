@@ -1,22 +1,70 @@
-# Content Templates ![Build Status](http://devtools1.risevision.com:8080/job/Storage-Client-BranchPush/badge/icon)
+# Events Template ![Build Status](http://devtools1.risevision.com:8080/job/Storage-Client-BranchPush/badge/icon)
 
 ## Introduction
 
-*The Content Templates repository is organized by folders each folder contains its own separate template named by market or subject matter. Inside each template folder you will find a html file with the same name as the folder. To use within rvauser.appspot.com copy the link to this page and add to a schedule by url. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.*
+The Events Template was created to display a series of custom events that rotate into the screen view one at a time. It can be modified to accommodate various markets and segments. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/events/events.html
 
-Content Templates works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
+##Steps to run the events template:##
+
+1. Fork or download the entire content-templates repository.
+![alt tag](images/readme-step1.jpg)
+
+2. Modify the files within the events folder directory to fit your needs (see below on how to modify specific elements).
+![alt tag](images/readme-step2.jpg)
+
+3. Host the entire “events” folder directory in rise vision storage or your web hosting service.
+![alt tag](images/readme-step3.jpg)
+
+4. Copy the link to the events.html file where you have it hosted and insert the url into a schedule. (you can also add this link to the url gadget within a presentation)
+![alt tag](images/readme-step4.jpg)
+
+
+##Directions to modify the events template:##
+
+####Changing the animated background
+Open events.html, locate the following code and modify the src url of the img tag to the path of your new background:
+
+```<div id="background">
+<img src="https://s3.amazonaws.com/creativelibrary/presentation-templates/events/images/
+background-buildings-1920.jpg">
+</div>```
+
+The zooming and panning are created using css keyframes and transforms and can be changed in events.css style sheet by modifying the #background img ID.
+ 
+####Changing the header text
+ In events.html, locate the following tag and modify the text between the div tags:
+
+```<div id="title">UPCOMING EVENTS</div>```
+
+CSS and media queries are utilized to change the font size and styling depending on the display resolution which can be changed inside events.css style sheet by modifying the #title ID.
+
+####Changing the text transition
+The events text transition was built with Edge Animate.  To modify, open the text-transition.an file with Edge Animate. 
+
+Once you have made changes to this file you will need re-upload the entire edge_includes folder as well as the following files to your web hosting service: (text-transition.html , text-transition_edge.js, text-transition_edgePreload.js, text-transition_edgeActions.js).
+
+If you do not have edge animate you can simply modify the arrays inside the text-transition_edge.js file to change the text. 
+
+####Changing the logo
+In events.html, locate the following code and modify the src url of the img tag to the path of your new logo:
+
+```<div  id="logo">
+    	<img class="image" src="images/sample-logo.png" width="100%"height="auto"alt=""/>
+    </div>```
+
+## Built With
+actual tools used
+- HTML
+- CSS
+- Java Script
+- Edge Animate
+
+Events Template works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 
 At this time Chrome is the only browser that this project and Rise Vision supports.
 
-## Built With
-*actual tools used*
-- *HTML*
-- *CSS*
-- *Java Script*
-- *Edge Animate*
-
 ## Submitting Issues
-If you encounter problems or find defects we really want to hear about them. If you could take the time to add them as issues to this Repository it would be most appreciated. When reporting issues please use the following format where applicable:
+If you encounter problems or find defects we really want to hear about them. If you could take the time to add them as issues to this Repository it would be most appreciated. Please Identify the specific template that has the issue and follow the following format where applicable:
 
 **Reproduction Steps**
 
@@ -33,17 +81,13 @@ What you expected to happen.
 What actually happened. (screenshots / video captures always help)
 
 ## Contributing
-All contributions are greatly appreciated and welcome! If you would first like to sound out your contribution ideas please post your thoughts to our [community](http://community.risevision.com), otherwise submit a pull request and we will do our best to incorporate it
-
-*if the Project does not support Internationalization include this section and include this need in our suggested contributions*
-
-In order to support languages i18n needs to be added to this repository.  Please refer to our Suggested Contributions.
+All contributions are greatly appreciated and welcome! If you would first like to sound out your contribution ideas please post your thoughts to our [community](http://community.risevision.com), otherwise submit a pull request and we will do our best to incorporate it.
 
 ### Suggested Contributions
-- *we need this*
-- *and we need that*
-- *we could really use this*
-- *and if we don't already have it (see above), we could use i18n Language Support*
+- Alternative ways to animate background
+- Alternative ways to animate text transitions
+- Dynamically update events from custom data source
+- i18n Language Support
 
 ## Resources
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
@@ -52,23 +96,10 @@ If you are looking for user documentation on Rise Vision please see http://www.r
 
 If you would like more information on developing applications for Rise Vision please visit http://www.risevision.com/help/developers/.
 
-##Events Template##
-* Animated Background -  To change the background image modify the the img tag within <div id="background"> inside events.html. The zooming and panning are created using css keyframes and transforms in the events.css style sheet.
+ If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
  
-* Header - CSS and media queries are utilized to change the font size and styling depending on the display resolution which can be modified inside events.css style sheet.
-
-* Text Transition - The text transition was built with Edge Animate.  
- To modify download the text-transition folder and all of its content from github and open the text-transition-fluid.an with Edge Animate. If you do not have edge animate you can modify the text copy by changing the text-transition-fluid_edge.js file. Once your changes are made you will need to host entire contents of the text-transition folder and relink the url widget to text-transition-fluid.html.
-
-* Logo - To change the logo image modify the the img tag within <div id="background"> inside events.html.
-
- If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com. 
- 
-**Additional Templates can be found here: https://github.com/Rise-Vision/content-templates**
+**Additional Content Templates can be found here: https://github.com/Rise-Vision/content-templates**
 
 **Facilitator**
 
 [Mathew Meiers](https://github.com/mmeiers "Mathew Meiers")
-
-
-
