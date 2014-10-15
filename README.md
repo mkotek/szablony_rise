@@ -2,21 +2,17 @@
 
 ## Introduction
 
-*The Content Templates repository is organized by folders each folder contains its own separate template named by market or subject matter. Inside each template folder you will find a html file with the same name as the folder. To use within rvauser.appspot.com copy the link to this page and add to a schedule by url. Specific information on modifying various elements of each presentation can be found within a readme.txt inside each template folder.*
+*  The purpose of the Content Templates repository is to provide an assortment of templates that can be modified and used in various markets or segments for digital signage. The repository is organized by folders each folder contains its own separate template named by market or subject matter. Specific information on modifying various elements of each template can be found within a readme.md inside each template folder.*
 
 Content Templates works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 
 At this time Chrome is the only browser that this project and Rise Vision supports.
 
 ## Built With
-*actual tools used*
-- *HTML*
-- *CSS*
-- *Java Script*
-- *Edge Animate*
+*see Sub-Folders*
 
 ## Submitting Issues
-If you encounter problems or find defects we really want to hear about them. If you could take the time to add them as issues to this Repository it would be most appreciated. When reporting issues please use the following format where applicable:
+If you encounter problems or find defects we really want to hear about them. If you could take the time to add them as issues to this Repository it would be most appreciated. Please Identify the specific template that has the issue and follow the following format where applicable:
 
 **Reproduction Steps**
 
@@ -40,10 +36,7 @@ All contributions are greatly appreciated and welcome! If you would first like t
 In order to support languages i18n needs to be added to this repository.  Please refer to our Suggested Contributions.
 
 ### Suggested Contributions
-- *we need this*
-- *and we need that*
-- *we could really use this*
-- *and if we don't already have it (see above), we could use i18n Language Support*
+*see sub folders*
 
 ## Resources
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
@@ -55,3 +48,4 @@ If you would like more information on developing applications for Rise Vision pl
 **Facilitator**
 
 [Mathew Meiers](https://github.com/mmeiers "Mathew Meiers")
+
