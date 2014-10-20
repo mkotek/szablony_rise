@@ -29,8 +29,9 @@ body{
 	height: 100%;
     left:0px;
     top:0px;
-    background-image: url("../school-calendar/images/pattern-v3.png");
+    background-image: url("../school-calendar/images/pattern-v2.png");
     z-index:0;
+    opacity: .2;
 }
 
 /*left content school events header*/
