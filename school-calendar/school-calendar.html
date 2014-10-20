@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>School Calendar</title>
+      
+<!--JS library-->    
+<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.11.2/TweenMax.min.js'></script>
+<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+<script src="js/content-rotation.js"></script>
+    
+<!--style sheets-->
+<link rel="stylesheet" href="school-calendar.css" media="screen" type="text/css" />  
+    
+<!--fav icon-->
+<link rel="shortcut icon" href="http://rise-vision.github.io/content-templates/favicon.ico" />
+    
+<!--fonts-->
+<link href='http://fonts.googleapis.com/css?family=Swanky+and+Moo+Moo' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+    
+<body>
+<!--background-->
+<div id="background-pattern"></div>
+<div id="container-gradient"></div>
+    
+<!--header-->
+<div class="cornered">
+    <p class="header">SCHOOL CALENDAR</p>
+</div>
+    
+<!--container for left content-->   
+<div class="container">
+    <!--oct events-->
+    <div class="left-content"> 
+        <div class="event">
+            <div class="date">
+                <p class="month">OCT</p>
+                <p class="day">07</p>
+            </div>
+            <div class="description">
+                <p class="title">Fall Field Trip</p>
+                <p class="time">12:30am - 3:00pm</p>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <p class="month">OCT</p>
+                <p class="day">15</p>
+            </div>
+            <div class="description">
+                <p class="title">Homecoming Game</p>
+                <p class="time">6:30pm - 8:00pm</p>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <p class="month">OCT</p>
+                <p class="day">31</p>
+            </div>
+            <div class="description">
+                <p class="title">Annual Halloween Party</p>
+                <p class="time">6:00pm - 8:00pm</p>
+            </div>
+        </div>
+    </div>
+    
+    <!--nov events-->
+    <div class="left-content">
+        <div class="event">
+            <div class="date">
+                <p class="month">NOV</p>
+                <p class="day">05</p>
+            </div>
+            <div class="description">
+                <p class="title">Pep Ralley In Gym</p>
+                <p class="time">2:30pm - 3:30pm</p>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <p class="month">NOV</p>
+                <p class="day">12</p>
+            </div>
+            <div class="description">
+                <p class="title">Donation Drive</p>
+                <p class="time">8:00am - 4:00pm</p>
+            </div>
+        </div>
+        <div class="event">
+            <div class="date">
+                <p class="month">NOV</p>
+                <p class="day">22</p>
+            </div>
+            <div class="description">
+                <p class="title">Parent Teacher Confernece</p>
+                <p class="time">6:00pm - 8:00pm</p>
+            </div>
+        </div>
+    </div>
+</div>
+    
+<!--right images-->
+<div class="right-container">
+    <div class="skew">
+        <img src="images/image-schoolbus.jpg">
+    </div>
+    <div class="skew">
+        <img src="images/image-gymnasium.jpg">
+    </div>
+</div>
+    
+<!--footer icons-->
+<!--github icon-->
+<div id="github">
+    <a type="button" id="gitbtn" href="https://github.com/Rise-Vision/content-templates" target="_blank">Contribute <i class="fa fa-github fa-lg "></i></a>
+</div>
+    
+<!--rise icon-->
+<div id="rise">
+    <a href="http://www.risevision.com/" target="_blank"><img class="image" src="images/rise-icon.png" width="auto" height="100%"/></a>
+</div>   
+
+<!--animated background js-->    
+<script src="js/index.js"></script>
+
+</body>
+</html>
