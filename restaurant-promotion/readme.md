@@ -91,6 +91,7 @@ All contributions are greatly appreciated and welcome! If you would first like t
 - Dynamically update events from custom data source
 - i18n Language Support
 
+
 ## Resources
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
 

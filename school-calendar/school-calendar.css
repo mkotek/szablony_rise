@@ -1,0 +1,286 @@
+html, body, iframe {
+	width:100%;
+	height:100%;
+	margin: 0px;
+    overflow: hidden;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+}
+
+/*background*/
+body{
+    background-color:#303038;
+    font-family: 'Oswald', sans-serif;
+}
+
+#container-gradient {
+    position: absolute;
+	width: 100%;
+	height: 100%;
+    left:0px;
+    top:0px;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
+    z-index:0;
+}
+
+#background-pattern {
+	position: absolute;
+	width: 100%;
+	height: 2160px;
+    left:0px;
+    top:0px;
+    opacity: .2;
+    background-image: url("../school-calendar/images/pattern-v2.png");
+    z-index:0;
+}
+
+/*left content school events header*/
+p.header {
+    text-align: left;
+    font-weight: 800;
+    height:35%;
+    font-size:48px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 50px;
+    line-height: 165%;
+    color: #fff;
+}
+
+.cornered {
+    position:absolute;
+    margin-top: 5%;
+    left: 5%;
+    width: 460px;
+    height: 0px;
+    border-bottom: 80px solid #1f99d5;
+    border-right: 40px solid transparent;
+    -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*left content*/
+.left-content {
+    width:60%;
+    height:90%;
+    top:20%;
+    left:5%;
+    position:absolute;	
+    /*background-color: white;*/
+    z-index:2;
+}
+
+.event {
+  width:100%;
+    height:18%;
+    top:0%;
+    left:0%;
+    position:relative;
+    margin-top: 0%;
+    z-index:2;
+}
+
+.date {
+  width:15%;
+    height:100%;
+    top:0%;
+    left:0%;
+    position:relative;
+    margin-top: 5%;
+    z-index:3;
+}
+.description {
+    width:85%;
+    height:100%;
+    top:0%;
+    left:15%;
+    position:absolute;
+    z-index:3;
+}
+
+p.day {
+    font-family: 'Swanky and Moo Moo', cursive;
+    text-align: center;
+    height:65%;
+    line-height: 90%;
+    margin-top: 0px;
+    color: #fff;
+    font-size:100px;
+}
+
+p.month {
+    font-family: 'Swanky and Moo Moo', cursive;
+    text-align: center;
+    height:35%;
+    font-size:60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 90%;
+    color: #feb423;
+}
+
+p.title {
+    text-align: left;
+    height:65%;
+    font-size:58px;
+    line-height: 140%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+    color: #fff;
+}
+
+p.time {
+    font-family: 'Swanky and Moo Moo', cursive;
+    text-align: left;
+    height:35%;
+    font-size:48px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    margin-left: 5%;
+    line-height: 90%;
+    color: #1f99d5;
+}
+
+/*right content images*/
+.skew {
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    transform: skew(25deg);
+    overflow: hidden;
+    margin-left: 65%;
+    z-index:4;
+    -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);
+}
+
+.skew img {
+    transform: skew(-25deg);
+    overflow: hidden;
+    position:relative;
+    z-index:4;
+    margin-left: -20%;
+    height:850px;
+  }
+
+/* media querry for 1920x1080*/
+	@media only screen and (min-width: 1920px) {
+        p.day {
+            font-size:140px;
+        }
+
+        p.month {
+            font-size:90px;
+        }
+
+        p.title {
+            font-size:80px;
+        }
+
+        p.time {
+            font-size:68px;
+        }
+
+        p.header {
+            font-size:68px;   
+        }
+        .cornered {
+            width: 610px;
+            border-bottom: 110px solid #1f99d5;
+            border-right: 60px solid transparent;
+        }
+        .skew img {
+            height:1080px;
+        }
+
+    }
+
+/* media querry for 3840x2160*/
+	@media only screen and (min-width: 2240px) {
+        p.day {
+            font-size:240px;
+        }
+
+        p.month {
+            font-size:180px;
+        }
+
+        p.title {
+            font-size:160px;
+        }
+
+        p.time {
+            font-size:136px;
+        }
+
+        p.header {
+            font-size:136px;   
+        }
+        .cornered {
+            width: 1220px;
+            border-bottom: 220px solid #1f99d5;
+            border-right: 120px solid transparent;
+        }
+        .skew img {
+            height:2160px;
+        }
+    }
+
+/* footer icons */
+#github {
+	 width:15%;
+	 height:4%;
+	 left:10%;
+	 top:90%;
+	 z-index:4;
+	 margin-left:-1%;
+	 position:absolute;
+	 z-index:4;
+}
+	
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:25px;
+	opacity:.5;
+	z-index:4;
+}
+
+	@media only screen and (min-width: 1280px) {
+	    #gitbtn {
+			font-size:25px;
+	    }
+	}
+	
+	/* 1360x768 */
+	@media only screen and (min-width: 1360px) {
+	    #gitbtn {
+			font-size:24px;
+	    }
+	}
+	
+	/* 1920x1080*/
+	@media only screen and (min-width: 1920px) {	    
+        #gitbtn {
+			font-size: 34px;
+	    }
+	}
+	
+	/* 3840x2160 */
+	@media screen and (min-width: 2200px) {
+	    #gitbtn {
+			font-size: 64px;
+	    }
+	}
+	
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4%;
+	left:5%;
+	top:90%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+	z-index:5;
+}
