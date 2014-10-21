@@ -21,8 +21,8 @@ The School Calendar Template was created to showcase a series of calender dates,
 
 ##Directions to modify the School Calendar Template:##
 
-####Changing the animated background pattern
-To change the image open school-calendar.css, locate the following ID and modify the background-image path of your new background image (the size of the image should be 450px x 450px):
+####Changing the background pattern
+To change the image open school-calendar.css, locate the following ID and modify the background-image path of your new background image (the image is a repeating pattern with a size of 450px x 450px):
 
 ```#background-pattern {
 	position: absolute;
@@ -34,10 +34,6 @@ To change the image open school-calendar.css, locate the following ID and modify
     background-image: url("../school-calendar/images/pattern-v2.png");
     z-index:0;
 }
-```
-
-The animation is created using green sock plugin: http://greensock.com/. To modify the speed open the index.js within the js folder and locate the following line of code. Change the number (12) directly after the "background-pattern" ID to speed or slow down the animation. The lower the number the faster the speed.: 
-```tl.to("#background-pattern", 12, {backgroundPosition:"-450px 0px", ease:Linear.easeNone});
 ```
  
 ####Changing the calendar text
