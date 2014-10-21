@@ -7,10 +7,50 @@ html, body, iframe {
     -webkit-user-select: none;
 }
 
-/*background*/
 body{
     background-color:#303038;
     font-family: 'Oswald', sans-serif;
+}
+
+/* background animation */
+#gradient {
+    height:100%;
+    width:100%;
+    margin:0;
+    overflow:hidden;
+    background-size:contain; 
+}
+
+#background {
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+    width:100%;
+    height:100%;
+}
+
+#background img {
+    min-width:100%;
+	-webkit-animation-duration: 275s;
+    -webkit-animation-name: slidein;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-direction: alternate;
+    opacity:.2;
+}
+
+@-webkit-keyframes "slidein" {
+ 25% {
+   -webkit-transform: scale(1.6) translate3d(-400px, 0px, 0px);
+   transform: scale(1.6) translate3d(-400px, 0px, 0px);
+ }
+ 50% {
+   -webkit-transform: scale(1) translate3d(0px, 0px, 0px);
+   transform: scale(1) translate3d(0px, 0px, 0px);
+ }
+ 75% {
+   -webkit-transform: scale(1.6) translate3d(+400px, 0px, 0px);
+   transform: scale(1.6) translate3d(+400px, 0px, 0px);
+ }
 }
 
 #container-gradient {
@@ -23,18 +63,7 @@ body{
     z-index:0;
 }
 
-#background-pattern {
-	position: absolute;
-	width: 100%;
-	height: 100%;
-    left:0px;
-    top:0px;
-    background-image: url("../school-calendar/images/pattern-v2.png");
-    z-index:0;
-    opacity: .2;
-}
-
-/*left content school events header*/
+/*school calendar header*/
 p.header {
     text-align: left;
     font-weight: 800;
@@ -141,6 +170,11 @@ p.time {
     color: #1f99d5;
 }
 
+.right-container {
+    width:100%;
+    height:100%   
+}
+
 /*right content images*/
 .skew {
     width: 100%;
@@ -158,8 +192,9 @@ p.time {
     overflow: hidden;
     position:relative;
     z-index:4;
-    margin-left: -20%;
-    height:850px;
+    margin-left: -25%;
+    height:100%;
+    width:65%;
   }
 
 /* media querry for 1920x1080*/
@@ -188,14 +223,11 @@ p.time {
             border-bottom: 110px solid #1f99d5;
             border-right: 60px solid transparent;
         }
-        .skew img {
-            height:1080px;
-        }
 
     }
 
 /* media querry for 3840x2160*/
-	@media only screen and (min-width: 2240px) {
+	@media only screen and (min-width: 3840px) {
         p.day {
             font-size:240px;
         }
@@ -222,9 +254,9 @@ p.time {
         }
         .skew img {
             height:2160px;
-        }
-        
+        }  
     }
+
 /* footer icons */
 #github {
 	 width:15%;
