@@ -223,6 +223,15 @@ p.time {
         .skew img {
             height:2160px;
         }
+        
+        #background-pattern {
+            visibility: hidden;
+        }
+       
+         body {
+            background-image: url("../school-calendar/images/4k-background.jpg");
+        }
+
     }
 
 /* footer icons */
