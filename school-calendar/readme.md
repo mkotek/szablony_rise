@@ -22,19 +22,14 @@ The School Calendar Template was created to showcase a series of calender dates,
 ##Directions to modify the School Calendar Template:##
 
 ####Changing the background pattern
-To change the image open school-calendar.css, locate the following ID and modify the background-image path of your new background image (the image is a repeating pattern with a size of 450px x 450px):
+Open school-calendar.html, locate the following code and modify the src url of the img tag to the path of your new background:
 
-```#background-pattern {
-	position: absolute;
-	width: 100%;
-	height: 2160px;
-    left:0px;
-    top:0px;
-    opacity: .2;
-    background-image: url("../school-calendar/images/pattern-v2.png");
-    z-index:0;
-}
-```
+```<!--background animation-->
+<div id="background">
+    <img src="../school-calendar/images/pattern.svg">
+</div>```
+
+The zooming and panning are created using css keyframes and transforms and can be changed in school-calendar.css style sheet by modifying the #background img ID.
  
 ####Changing the calendar text
 Open school-calendar.html, the calendar events are orgainzed within 2 div tags both named ```<div class="left-content">```. To add 3 more calendar events copy and paste this div and its entire contents a third time and modify the dates and desciptions within to meet your needs.
@@ -58,16 +53,15 @@ Open school-calendar.html, locate the following code and modify the src url of t
     </div></div>```
 
 The rotation is built with jquery inside content.rotation.js within the js folder. You can modify the speed in which it rotates between events by changing the following parameters: 
-```.fadeIn(1000)
-    .delay(5000)
-    .fadeOut(1000, loop);``` 
+```.fadeIn(300)
+    .delay(10000)
+    .fadeOut(300, loop);``` 
 
 ## Built With
 actual tools used
 - HTML
 - CSS
 - Jquery
-- Green Sock (GSAP)
 
 School Calendar Template works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 

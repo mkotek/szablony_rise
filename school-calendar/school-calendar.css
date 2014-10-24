@@ -68,7 +68,7 @@ p.header {
     text-align: left;
     font-weight: 800;
     height:35%;
-    font-size:48px;
+    font-size:38px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 50px;
@@ -80,10 +80,10 @@ p.header {
     position:absolute;
     margin-top: 5%;
     left: 5%;
-    width: 460px;
+    width: 380px;
     height: 0px;
-    border-bottom: 80px solid #1f99d5;
-    border-right: 40px solid transparent;
+    border-bottom: 62px solid #1f99d5;
+    border-right: 32px solid transparent;
     -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -133,14 +133,14 @@ p.day {
     line-height: 98%;
     margin-top: 0px;
     color: #fff;
-    font-size:94px;
+    font-size:70px;
 }
 
 p.month {
     font-family: 'Swanky and Moo Moo', cursive;
     text-align: center;
     height:35%;
-    font-size:52px;
+    font-size:45px;
     margin-top: 0px;
     margin-bottom: 0px;
     line-height: 90%;
@@ -150,7 +150,7 @@ p.month {
 p.title {
     text-align: left;
     height:65%;
-    font-size:58px;
+    font-size:46px;
     line-height: 140%;
     margin-top: 0px;
     margin-bottom: 0px;
@@ -162,7 +162,7 @@ p.time {
     font-family: 'Swanky and Moo Moo', cursive;
     text-align: left;
     height:35%;
-    font-size:42px;
+    font-size:34px;
     margin-bottom: 0px;
     margin-top: 0px;
     margin-left: 5%;
@@ -196,6 +196,36 @@ p.time {
     height:100%;
     width:65%;
   }
+
+/* media querry for 1280x850 and 1360x768*/
+	@media only screen and (min-width: 1280px) {
+        p.day {
+            font-size:94px;
+        }
+
+        p.month {
+            font-size:52px;
+        }
+
+        p.title {
+            font-size:58px;
+        }
+
+        p.time {
+            font-size:42px;
+        }
+
+        p.header {
+            font-size:48px;   
+        }
+        .cornered {
+            width: 460px;
+            border-bottom: 80px solid #1f99d5;
+            border-right: 40px solid transparent;
+        }
+
+    }
+
 
 /* media querry for 1920x1080*/
 	@media only screen and (min-width: 1920px) {
