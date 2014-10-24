@@ -6,9 +6,9 @@ $.fn.events = function(){
     !function loop() {
         position = (position + 1) % $children.length;
         $children.eq(position)
-                 .fadeIn(1000)
-                 .delay(5000)
-                 .fadeOut(1000, loop);
+                 .fadeIn(300)
+                 .delay(10000)
+                 .fadeOut(300, loop);
     }();
   });
 };
@@ -26,9 +26,9 @@ $.fn.images = function(){
     !function loop() {
         position = (position + 1) % $children.length;
         $children.eq(position)
-                 .fadeIn(1000)
-                 .delay(5000)
-                 .fadeOut(1000, loop);
+                 .fadeIn(300)
+                 .delay(10000)
+                 .fadeOut(300, loop);
     }();
   });
 };
