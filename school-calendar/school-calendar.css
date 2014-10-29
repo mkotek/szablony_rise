@@ -189,7 +189,6 @@ p.time {
 
 .skew img {
     transform: skew(-25deg);
-    overflow: hidden;
     position:relative;
     z-index:4;
     margin-left: -25%;
