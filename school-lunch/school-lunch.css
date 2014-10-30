@@ -243,6 +243,7 @@ p.alacarte {
         height: 1140px;
         width: 1140px;
         margin-top:-340px;
+        border-radius: 680px;
     }
 
     p.header {
