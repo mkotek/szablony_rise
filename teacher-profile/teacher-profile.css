@@ -158,22 +158,23 @@ body{
 
 /* Teacher Profile Icon */
 .icon {
-  background: url(images/avatar-guy-beard.svg);
-  border-radius: 50%;
-  height: 300px;
-  width: 300px;
+    background: url(images/avatar-guy-beard.svg);
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    z-index: 99;
 }
 
 .icon-shadow {
-  background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-  height: 50px;
-  width: 300px;
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
+    height: 50px;
+    width: 300px;
 }
 
 .icon-container {
-  height: 50%;
-  left: 80%;
-  position: absolute;
+    height: 50%;
+    left: 80%;
+    position: absolute;
 }
 
 .icon-container .icon-shadow {
@@ -181,18 +182,18 @@ body{
   -webkit-animation-duration: 1s;
   -webkit-animation-name: grow;
   -webkit-animation-iteration-count: infinite;
-  bottom: 0;
-  position: absolute;
-  margin-left: -100px;
+    bottom: 0;
+    position: absolute;
+    margin-left: -100px;
 }
 
 .icon-container .icon {
-  -webkit-animation-direction: alternate;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-name: bounce;
-  -webkit-animation-iteration-count: infinite;
-  margin-left: -100px;
-  position: absolute;
+    -webkit-animation-direction: alternate;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-name: bounce;
+    -webkit-animation-iteration-count: infinite;
+    margin-left: -100px;
+    position: absolute;
 }
 
 @-webkit-keyframes grow {
