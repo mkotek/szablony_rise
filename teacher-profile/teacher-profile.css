@@ -16,7 +16,7 @@ body{
 }
 
 /* Initial Fade in CSS Animation */
-/*@-webkit-keyframes slideIn { 
+@-webkit-keyframes slideIn { 
     from { 
         opacity:0;
         margin-left: -60%;
@@ -57,7 +57,7 @@ body{
     .fade-in {
     -webkit-animation-delay: 1.5s;
 
-}*/
+}
 
 
 /* Background Elements */
