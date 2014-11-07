@@ -16,25 +16,49 @@ body{
 }
 
 /* Initial Fade in CSS Animation */
-@-webkit-keyframes fadeIn { from { opacity:0; } to { opacity:1; } }
+@-webkit-keyframes slideIn { 
+    from { 
+        opacity:0;
+        margin-left: -60%;
+    } 
+    to { 
+        opacity:1; 
+        margin-left: 0px;
+    } 
+}
+    .slide-in {
+	opacity:0 !important;
+	-webkit-animation:slideIn ease-out 1;  
+	-webkit-animation-fill-mode:forwards;
+	-webkit-animation-duration:.5s;
+}
+    .slide-in.one {
+    -webkit-animation-delay: .5s;
+}
+
+    .slide-in.two {
+    -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes fadeIn { 
+    from { 
+        opacity:0;
+    } 
+    to { 
+        opacity:1; 
+    } 
+}
     .fade-in {
 	opacity:0 !important;
 	-webkit-animation:fadeIn ease-in 1;  
 	-webkit-animation-fill-mode:forwards;
 	-webkit-animation-duration:1s;
 }
-    .fade-in.one {
-    -webkit-animation-delay: .5s;
-
-}
-
-    .fade-in.two {
-        -webkit-animation-delay: 1s;
-}
-
-    .fade-in.three {
+    .fade-in {
     -webkit-animation-delay: 1.5s;
+
 }
+
 
 /* Background Elements */
 .radial-gradient {
