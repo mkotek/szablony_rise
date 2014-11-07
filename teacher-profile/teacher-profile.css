@@ -158,7 +158,6 @@ body{
 
 /* Teacher Profile Icon */
 .icon {
-    background: url(images/avatar-guy-beard.svg);
     border-radius: 50%;
     height: 300px;
     width: 300px;
