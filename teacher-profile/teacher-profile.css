@@ -367,7 +367,7 @@ body{
 			font-size: 64px;
 	    }
 	}
-	
+
 #rise {
 	opacity:.5;
 	width:5%;
@@ -378,4 +378,9 @@ body{
 	margin-left:-1%;
 	position:absolute;
 	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
 }
