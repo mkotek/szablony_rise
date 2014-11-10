@@ -7,6 +7,8 @@ html {
     -webkit-user-select: none;
 }
 
+
+
 /* default styles, hanldes 1280x850 resolution*/
 body {
     font-family:oswald;
@@ -153,6 +155,11 @@ hr {
 	z-index:0;
 	position:absolute;animation: fadein 2s;
     -webkit-animation: fadein 2s;
+}
+
+#background img {
+    width:100%;
+	height:100%;
 }
 
 @-webkit-keyframes fadein { 
@@ -347,9 +354,8 @@ hr {
 	}
 
 /* footer icons */
-/* footer icons */
 #github {
-	 width:15%;
+	 width:20%;
 	 height:4%;
 	 left:10%;
 	 top:90%;
@@ -394,7 +400,7 @@ hr {
 			font-size: 64px;
 	    }
 	}
-	
+
 #rise {
 	opacity:.5;
 	width:5%;
@@ -405,4 +411,9 @@ hr {
 	margin-left:-1%;
 	position:absolute;
 	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
 }
