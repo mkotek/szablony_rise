@@ -56,6 +56,16 @@ html {
 	 position:absolute;
 }
 
+#background img {
+    width: 100%;
+    height:100%;
+}
+
+.image {
+    width: 100%;
+    height:auto;
+}
+
 #content {
 	width:100%;
 	height:45%;
@@ -67,13 +77,14 @@ html {
 
 /* footer icons */
 #github {
-	 width:15%;
+	 width:20%;
 	 height:4%;
 	 left:10%;
 	 top:90%;
 	 z-index:4;
 	 margin-left:-1%;
 	 position:absolute;
+	 z-index:4;
 }
 	
 #gitbtn {
@@ -81,7 +92,8 @@ html {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	text-decoration: none;
 	font-size:25px;
-	opacity:.6;
+	opacity:.5;
+	z-index:4;
 }
 
 	@media only screen and (min-width: 1280px) {
@@ -110,7 +122,7 @@ html {
 			font-size: 64px;
 	    }
 	}
-	
+
 #rise {
 	opacity:.5;
 	width:5%;
@@ -120,4 +132,10 @@ html {
 	z-index:5;
 	margin-left:-1%;
 	position:absolute;
+	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
 }

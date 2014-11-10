@@ -288,7 +288,7 @@ p.time {
 
 /* footer icons */
 #github {
-	 width:15%;
+	 width:20%;
 	 height:4%;
 	 left:10%;
 	 top:90%;
@@ -333,7 +333,7 @@ p.time {
 			font-size: 64px;
 	    }
 	}
-	
+
 #rise {
 	opacity:.5;
 	width:5%;
@@ -344,4 +344,9 @@ p.time {
 	margin-left:-1%;
 	position:absolute;
 	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
 }
