@@ -40,6 +40,10 @@ body{
     -webkit-animation-delay: 1s;
 }
 
+    .slide-in.three {
+    -webkit-animation-delay: 1.5s;
+}
+
 @-webkit-keyframes fadeIn { 
     from { 
         opacity:0;
@@ -47,16 +51,6 @@ body{
     to { 
         opacity:1; 
     } 
-}
-    .fade-in {
-	opacity:0 !important;
-	-webkit-animation:fadeIn ease-in 1;  
-	-webkit-animation-fill-mode:forwards;
-	-webkit-animation-duration:1s;
-}
-    .fade-in {
-    -webkit-animation-delay: 1.5s;
-
 }
 
 
