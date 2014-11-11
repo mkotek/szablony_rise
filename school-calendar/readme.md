@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The School Calendar Template was created to showcase a series of calender dates, descriptions and supporing images that would be typical of an educational environment. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-calendar/school-calendar.html
+The School Calendar Template was created to showcase a series of calendar dates, descriptions and supporting images that would be typical of an educational environment. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-calendar/school-calendar.html
 
 ##Steps to run the events template:##
 

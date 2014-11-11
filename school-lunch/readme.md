@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The School Lunch Template was created to showcase a series of menu items, descriptions and supporing images that would be typical of an school environment. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-lunch/school-lunch.html
+The School Lunch Template was created to showcase a series of menu items, descriptions and supporting images that would be typical of an school environment. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-lunch/school-lunch.html
 
 ##Steps to run the school lunch template:##
 
