@@ -31,11 +31,11 @@ body{
 
 #background img {
     min-width:100%;
-	-webkit-animation-duration: 300s;
+	-webkit-animation-duration: 100s;
     -webkit-animation-name: slidein;
 	-webkit-animation-iteration-count: infinite;
 	-webkit-animation-direction: alternate;
-    opacity:.2;
+    opacity:.15;
 }
 
 @-webkit-keyframes "slidein" {
@@ -94,7 +94,6 @@ p.header {
     top:20%;
     left:5%;
     position:absolute;	
-    /*background-color: white;*/
     z-index:2;
 }
 
