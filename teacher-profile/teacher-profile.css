@@ -137,59 +137,34 @@ body{
 
 /* Teacher Profile Icon */
 .icon {
-    border-radius: 50%;
     height: 300px;
     width: 300px;
-    z-index: 99;
+    z-index: 1;
 }
 
 .icon-shadow {
+	position: absolute;
     background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,.5) 0%,rgba(0,0,0,0) 68%,rgba(0,0,0,0) 100%);
-    height: 50px;
-    width: 300px;
+    height: 10%;
+    width: 45%;
+	top: 90%;
+	left:-15%;
 }
 
 .icon-container {
     height: 50%;
+	width:50%;
     left: 80%;
     position: absolute;
 }
 
-.icon-container .icon-shadow {
-  -webkit-animation-direction: alternate;
-  -webkit-animation-duration: 1s;
-  -webkit-animation-name: grow;
-  -webkit-animation-iteration-count: infinite;
-    bottom: 0;
-    position: absolute;
-    margin-left: -100px;
-}
-
-.icon-container .icon {
+.icon {
     -webkit-animation-direction: alternate;
     -webkit-animation-duration: 1s;
     -webkit-animation-name: bounce;
     -webkit-animation-iteration-count: infinite;
     margin-left: -100px;
     position: absolute;
-}
-
-@-webkit-keyframes grow {
-  from {
-    bottom: 0;
-    margin-left: -100px;
-    height: 50px;
-    opacity: 1;
-    width: 300px;
-  }
-
-  to {
-    bottom: -15px;
-    margin-left: -150px;
-    height: 80px;
-    opacity: 0.4;
-    width: 400px;
-  }
 }
 
 @-webkit-keyframes bounce {
@@ -272,14 +247,12 @@ body{
       height: 450px;
       width: 450px;
     }
+	
+	.icon-shadow {
+		left:-10%;
+	}
+	
 
-    .icon-container .icon-shadow {
-      margin-left: -180px;
-    }
-
-    .icon-container .icon {
-      margin-left: -180px;
-    } 
 }
 
 /* media querry for 3840x2160*/
@@ -306,17 +279,14 @@ body{
     
     /* Teacher Profile Icon */
     .icon {
-      height: 900px;
-      width: 900px;
+		height: 900px;
+		width: 900px;
+		left:-10%;
     }
-
-    .icon-container .icon-shadow {
-      margin-left: -360px;
-    }
-
-    .icon-container .icon {
-      margin-left: -360px;
-    } 
+		
+	.icon-shadow {
+		left:-15%;
+	}
 }
 
 /* footer icons */
