@@ -38,12 +38,36 @@ The zooming and panning are created using css keyframes and transforms and can b
 
 CSS and media queries are utilized to change the font size and styling depending on the display resolution which can be changed inside events.css style sheet by modifying the #title ID.
 
+####Changing the slide text
+The slide text is displayed through the use of the google-sheets web component. The example spreadsheet is located at https://docs.google.com/a/cameroncodes.com/spreadsheets/d/1WwSkJbyIH4EgVDni9eI65zK95MBv0R5c6JSVXsGEPiE/edit#gid=0
+
+You can use your own public spreadsheet by locating the following code in the events.html file:
+
+```<google-sheets id="sheet" 
+               key="1WwSkJbyIH4EgVDni9eI65zK95MBv0R5c6JSVXsGEPiE"
+               gid="0"
+               rows="{{rows}}"
+               published>
+</google-sheets>```
+
+The key for your spreadsheet can be found when viewing the document online, as can be seen in the example above. 
+
+In order to view a private spreadsheet, you will need to obtain an ID from https://console.developers.google.com. This is optional if accessing a public spreadsheet, and is currently set to 'sheet' in the above example.
+
+You can then edit the text within the cells of the spreadsheet and the changes will appear in the display.
+
 ####Changing the text transition
-The events text transition was built with Edge Animate.  To modify, open the text-transition.an file with Edge Animate. 
+The events text transition was built with css keyframes animation.  To modify, open the events.css file and locate the keyframes animation code for the slides beginning:
 
-Once you have made changes to this file you will need re-upload the entire edge_includes folder as well as the following files to your web hosting service: (text-transition.html , text-transition_edge.js, text-transition_edgePreload.js, text-transition_edgeActions.js).
+```@-webkit-keyframes "slide1Animation"```
 
-If you do not have edge animate you can simply modify the arrays inside the text-transition_edge.js file to change the text. 
+You can make changes to the timing of the slide animations by changing the percentage of the keyframes, as well as position and opacity. 
+
+General animation controls for the duration of the animation as well as the easing can be changed for each individual slide by locating the following code:
+
+```-webkit-animation: slide1Animation 30s ease-in-out infinite;```
+
+In the above line of code, '30s' refers to the total time of the animation, 'ease-in-out' is the style of transition, and 'infinite' allows the animation to run continuously.
 
 ####Changing the logo
 In events.html, locate the following code and modify the src url of the img tag to the path of your new logo:
@@ -57,7 +81,9 @@ actual tools used
 - HTML
 - CSS
 - Java Script
-- Edge Animate
+- Google-Sheets
+- Polymer
+- Bower
 
 Events Template works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 
