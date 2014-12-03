@@ -1,0 +1,154 @@
+html, body {
+	width:100%;
+	height:100%;
+	margin: 0px;
+	overflow: hidden;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+}
+
+body {
+	font-family: 'BenchNine', sans-serif;	
+	color:white;
+	text-transform: uppercase;
+	background-image: url("/images/background.jpg");
+	/*background-image: url("/images/retail-qrcode-screenshot.jpg");*/
+}
+
+#background {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+	z-index: -1;
+}
+
+/* Quote Content */
+#quote-container {
+	position: absolute;
+	top: 5vh;
+    left: 12vw;
+    width: 80vw;
+	height: 30vw;
+	z-index: 1;
+}
+
+.header-text {
+	font-size: 7.1vw;
+	font-weight: 700;
+	opacity: .5;
+	letter-spacing: .4vw;
+}
+
+.sub-text {
+	font-size: 3.2vw;
+	line-height: .3vw;
+	width:100%;
+	font-weight:300;
+	opacity: .5;
+	padding-top: -20px;
+	letter-spacing: .5vw;
+}
+
+.designer-text {
+	font-size: 2.5vw;
+	line-height: 3.5vw;
+	width:100%;
+	font-weight: 700;
+	opacity: .5;
+	letter-spacing: .4vw;
+	line-height: 5vw;
+}
+
+/* QR Code */
+#qr-container {
+	position: absolute;
+	top: 60vh;
+    left: 12vw;
+    width: 80vw;
+	height: 10vw;
+}
+
+.qr-text {
+	position: absolute; 
+    bottom: 0;
+	font-size: 4vw;
+	bottom:0px;
+	line-height: 1;
+	width:100%;
+	font-weight: 300;
+	letter-spacing: .4vw;
+}
+
+#qr-graphic {
+	position: absolute;
+	top: 60vh;
+    left: 12vw;
+    width: 76vw;
+	height: 10vw;
+	text-align: right;
+}
+
+#qr-graphic img {
+	height: 10vw;
+}
+
+#footer-container {
+	position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+	bottom: 0px;
+    width: 100%;
+	height: 15vh;
+	z-index: 1;
+	background-color: rgba(0,0,0,0.3);
+}
+
+/* Logo */
+#logo-container{
+	position:absolute;
+	width:20%;
+	height:10%;
+	right:5%;
+	top:90%;
+}
+
+#logo{
+}
+	
+/* Footer Icons */
+#github {
+	position:absolute;
+	 width:50%;
+	 height:4vh;
+	 left:10%;
+	 top:90%;
+	 z-index:4;
+	 margin-left:-1%;
+	 z-index:4;
+}
+
+#gitbtn {
+	color:white;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
+	text-decoration: none;
+	font-size:3.6vh;
+	opacity:.5;
+	z-index:4;
+}
+
+#rise {
+	opacity:.5;
+	width:5%;
+	height:4vh;
+	left:5%;
+	top:90%;
+	z-index:5;
+	margin-left:-1%;
+	position:absolute;
+	z-index:5;
+}
+
+#risebtn {
+    width:auto; 
+    height:100%;   
+}
