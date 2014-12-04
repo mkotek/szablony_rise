@@ -10,7 +10,6 @@ html, body {
 body {
 	font-family: 'BenchNine', sans-serif;	
 	color:white;
-	text-transform: uppercase;
 	background-image: url("/images/background.jpg");
 	/*background-image: url("/images/retail-qrcode-screenshot.jpg");*/
 }
@@ -30,6 +29,7 @@ body {
     width: 80vw;
 	height: 30vw;
 	z-index: 1;
+	text-transform: uppercase;
 }
 
 .header-text {
@@ -66,6 +66,7 @@ body {
     left: 12vw;
     width: 80vw;
 	height: 10vw;
+	text-transform: uppercase;
 }
 
 .qr-text {
@@ -103,6 +104,13 @@ body {
 	background-color: rgba(0,0,0,0.3);
 }
 
+#footer-container img {
+	position:absolute;
+	padding: 6vh;
+	height:8vh;
+	right:5vw;
+}
+
 /* Logo */
 #logo-container{
 	position:absolute;
@@ -118,12 +126,10 @@ body {
 /* Footer Icons */
 #github {
 	position:absolute;
-	 width:50%;
-	 height:4vh;
-	 left:10%;
-	 top:90%;
-	 z-index:4;
-	 margin-left:-1%;
+	 width:50vw;
+	 height:3vh;
+	 left:10vw;
+	 top:90vh;
 	 z-index:4;
 }
 
@@ -131,19 +137,19 @@ body {
 	color:white;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;	
 	text-decoration: none;
-	font-size:3.6vh;
+	font-size:2.6vh;
 	opacity:.5;
 	z-index:4;
 }
 
 #rise {
 	opacity:.5;
-	width:5%;
-	height:4vh;
-	left:5%;
-	top:90%;
+	width:5vw;
+	height:3vh;
+	left:5vw;
+	top:90vh;
 	z-index:5;
-	margin-left:-1%;
+	margin-left:-1vw;
 	position:absolute;
 	z-index:5;
 }
