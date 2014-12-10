@@ -5,6 +5,11 @@
 html {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
+	-webkit-transform: translateZ(0);
+    -moz-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    -o-transform: translateZ(0);
+    transform: translateZ(0);
 }
 
 body {

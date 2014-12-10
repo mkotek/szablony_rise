@@ -12,15 +12,6 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
-/* background animation */
-#gradient {
-    height:100%;
-    width:100%;
-    margin:0;
-    overflow:hidden;
-    background-size:contain; 
-}
-
 #background {
 	overflow: hidden;
 	position: absolute;
@@ -61,6 +52,11 @@ body{
     top:0px;
     background: -webkit-radial-gradient(center, ellipse cover, rgba(0,0,0,0) 50%,rgba(0,0,0,.7) 100%);
     z-index:0;
+	   -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      -o-transform: translateZ(0);
+      transform: translateZ(0);
 }
 
 /*school calendar header*/
@@ -95,6 +91,11 @@ p.header {
     left:5%;
     position:absolute;	
     z-index:2;
+	   -webkit-transform: translateZ(0);
+      -moz-transform: translateZ(0);
+      -ms-transform: translateZ(0);
+      -o-transform: translateZ(0);
+      transform: translateZ(0);
 }
 
 .event {
@@ -184,6 +185,7 @@ p.time {
     margin-left: 65%;
     z-index:4;
     -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);
+	
 }
 
 .skew img {
