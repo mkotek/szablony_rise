@@ -1,77 +1,15 @@
-# Events Template ![Build Status](http://devtools1.risevision.com:8080/job/Storage-Client-BranchPush/badge/icon)
+# Content Templates ![Build Status](http://devtools1.risevision.com:8080/job/Storage-Client-BranchPush/badge/icon)
 
 ## Introduction
 
-The Events Template was created to display a series of custom events that rotate into the screen view one at a time. It can be modified to accommodate various markets and segments. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/events/events.html
+The purpose of the Content Templates repository is to provide an assortment of templates that can be modified and used in various markets or segments for digital signage. The repository is organized by folders each folder contains its own separate template named by market or subject matter. Specific information on modifying various elements of each template can be found within a readme.md inside each template folder.
 
-##Steps to run the events template:##
-
-1. Fork or download the entire content-templates repository.
-![alt tag](images/readme-step1.jpg)
-
-2. Modify the files within the events folder directory to fit your needs (see below on how to modify specific elements).
-![alt tag](images/readme-step2.jpg)
-
-3. Host the entire “events” folder directory in rise vision storage or your web hosting service.
-![alt tag](images/readme-step3.jpg)
-
-4. Copy the link to the events.html file where you have it hosted and insert the url into a schedule. (you can also add this link to the url gadget within a presentation)
-![alt tag](images/readme-step4.jpg)
-
-
-##Directions to modify the events template:##
-
-####Changing the animated background
-Open events.html, locate the following code and modify the src url of the img tag to the path of your new background:
-
-```<div id="background">
-<img src="https://s3.amazonaws.com/creativelibrary/presentation-templates/events/images/
-background-buildings-1920.jpg">
-</div>```
-
-The zooming and panning are created using css keyframes and transforms and can be changed in events.css style sheet by modifying the #background img ID.
- 
-####Changing the header text
- In events.html, locate the following tag and modify the text between the div tags:
-
-```<div id="title">UPCOMING EVENTS</div>```
-
-CSS and media queries are utilized to change the font size and styling depending on the display resolution which can be changed inside events.css style sheet by modifying the #title ID.
-
-####Changing the text transition
-The transition for the events text was built using CSS keyframe animations. To modify, open the event.css file and locate the keyframes for the specific slide you wish to modify. For example, these are the first keyframes for slide 1:
-
-```@-webkit-keyframes "slide1Animation" {
- 20% {left:-25%;opacity:0.3;}
- 25% {left:-100%; opacity:0.3;}
- 40% {left:-100%;opacity:0}```
-
-Each slide animation is controled by a separate keyframe animation that can be configured to any timing, position and opacity that the display requires.
-
-To change the timing of the animations simply locate the slides classes in the CSS (currrently slide-1 to slide-4) and the line begining '-webkit-animation':
-
-```-webkit-animation: slide1Animation 30s ease-in-out infinite;```
-
-Currently the time is set for 30s. You can also change the style of transition in the same line, currently set to 'ease-in-out'. Other options include 'linear' and 'ease-out'.
-
-
-####Changing the logo
-In events.html, locate the following code and modify the src url of the img tag to the path of your new logo:
-
-```<div  id="logo">
-    	<img class="image" src="images/sample-logo.png" width="100%"height="auto"alt=""/>
-    </div>```
-
-## Built With
-actual tools used
-- HTML
-- CSS
-- Java Script
-- Edge Animate
-
-Events Template works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
+Content Templates works in conjunction with [Rise Vision](http://www.risevision.com), the [digital signage management application](http://rva.risevision.com/) that runs on [Google Cloud](https://cloud.google.com).
 
 At this time Chrome is the only browser that this project and Rise Vision supports.
+
+## Built With
+see sub-folders for template specific readme.md
 
 ## Submitting Issues
 If you encounter problems or find defects we really want to hear about them. If you could take the time to add them as issues to this Repository it would be most appreciated. Please Identify the specific template that has the issue and follow the following format where applicable:
@@ -91,13 +29,10 @@ What you expected to happen.
 What actually happened. (screenshots / video captures always help)
 
 ## Contributing
-All contributions are greatly appreciated and welcome! If you would first like to sound out your contribution ideas please post your thoughts to our [community](http://community.risevision.com), otherwise submit a pull request and we will do our best to incorporate it.
+All contributions are greatly appreciated and welcome! If you would first like to sound out your contribution ideas please post your thoughts to our [community](http://community.risevision.com), otherwise submit a pull request and we will do our best to incorporate it. In order to support languages i18n needs to be added to this repository.  Please refer to our Suggested Contributions.
 
 ### Suggested Contributions
-- Alternative ways to animate background
-- Alternative ways to animate text transitions
-- Dynamically update events from custom data source
-- i18n Language Support
+see sub-folders for template specific readme.md
 
 ## Resources
 If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
@@ -106,10 +41,7 @@ If you are looking for user documentation on Rise Vision please see http://www.r
 
 If you would like more information on developing applications for Rise Vision please visit http://www.risevision.com/help/developers/.
 
- If you have any questions or problems please don't hesitate to join our lively and responsive community at http://community.risevision.com.
- 
-**Additional Content Templates can be found here: https://github.com/Rise-Vision/content-templates**
-
 **Facilitator**
 
 [Mathew Meiers](https://github.com/mmeiers "Mathew Meiers")
+
