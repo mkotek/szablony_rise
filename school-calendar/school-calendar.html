@@ -24,10 +24,6 @@
 <meta property="og:url" content="http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/school-calendar/school-calendar.html" />
 <meta property="og:image" content="http://goo.gl/GcIJ5Z" />
 <meta property="og:description" content="The School Calendar Template was created to showcase a series of calendar dates, descriptions and supporting images typical of a school environment." />
-      
-<!--Java Script-->    
-<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
-<script src="js/content-rotation.js"></script>
     
 <!--Style Sheets-->
 <link rel="stylesheet" href="school-calendar.css" media="screen" type="text/css" />  
@@ -43,9 +39,12 @@
     
 <body> 
 <!--Background Animation-->
+<div id="background-container">	
 <div id="background">
-    <img src="../school-calendar/images/pattern.svg">
+    <!--<img src="../school-calendar/images/pattern.svg">-->
 </div>
+</div>
+	
 <div id="container-gradient"></div>
     
 <!--Header-->
@@ -54,9 +53,9 @@
 </div>
     
 <!--Container For Left Content-->   
-<div class="container">
+<div id="container">
     <!--Oct Calendar-->
-    <div class="left-content"> 
+    <div id="left-content1"> 
         <div class="event">
             <div class="date">
                 <p class="month">OCT</p>
@@ -90,7 +89,7 @@
     </div>
     
     <!--Nov Calendar-->
-    <div class="left-content">
+    <div id="left-content2">
         <div class="event">
             <div class="date">
                 <p class="month">NOV</p>
@@ -125,10 +124,13 @@
 </div>
     
 <!--Right Images-->
-<div class="right-container">
+<div id="right-container1">
     <div class="skew">
         <img src="images/image-schoolbus.jpg">
     </div>
+</div>
+	
+<div id="right-container2">
     <div class="skew">
         <img src="images/image-gymnasium.jpg">
     </div>
