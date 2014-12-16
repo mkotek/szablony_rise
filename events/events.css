@@ -5,11 +5,6 @@
 html {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
-	-webkit-transform: translateZ(0);
-    -moz-transform: translateZ(0);
-    -ms-transform: translateZ(0);
-    -o-transform: translateZ(0);
-    transform: translateZ(0);
 }
 
 body {
@@ -41,6 +36,7 @@ body {
     top:30.0839%;
     z-index:3;
     position:absolute;
+	-webkit-transform: translateZ(0);
 }
 
 .slides {
@@ -78,6 +74,7 @@ body {
 	left:125%;
 	opacity:0.3;
 	-webkit-animation: slide3Animation 30s ease-in-out infinite;
+	-webkit-perspective: 1000;
 }
 
 /*Slide starting position at left hand side*/
@@ -86,6 +83,8 @@ body {
 	left:-25%;
 	opacity: 0.3;
 	-webkit-animation: slide1Animation 30s ease-in-out infinite;
+	-webkit-perspective: 1000;
+	
 }
 /*.slides:nth-of-type(4n) {
 }*/
@@ -94,7 +93,8 @@ body {
 
 .slides:last-of-type {
 	left:200%;
-	-webkit-animation: slide4Animation 30s ease-in-out infinite;	
+	-webkit-animation: slide4Animation 30s ease-in-out infinite;
+	-webkit-perspective: 1000;
 }
 
     /* 1280x850 */
