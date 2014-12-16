@@ -12,16 +12,22 @@ body{
     font-family: 'Oswald', sans-serif;
 }
 
+#background-container {
+    position: absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+}
+
 #background {
-	overflow: hidden;
 	position: absolute;
 	text-align: center;
     width:100%;
     height:100%;
-}
-
-#background img {
-    min-width:100%;
+	background-image: url("../school-calendar/images/pattern.svg");
+    background-repeat: repeat;
+	background-size: 50vw auto;
 	-webkit-animation-duration: 100s;
     -webkit-animation-name: slidein;
 	-webkit-animation-iteration-count: infinite;
@@ -84,18 +90,62 @@ p.header {
 }
 
 /*left content*/
-.left-content {
+#left-content1 {
     width:60%;
     height:90%;
     top:20%;
     left:5%;
     position:absolute;	
     z-index:2;
-	   -webkit-transform: translateZ(0);
-      -moz-transform: translateZ(0);
-      -ms-transform: translateZ(0);
-      -o-transform: translateZ(0);
-      transform: translateZ(0);
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: fade1;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#left-content2 {
+    width:60%;
+    height:90%;
+    top:20%;
+    left:5%;
+    position:absolute;	
+    z-index:2;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: fade2;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#right-container1 {
+	position: absolute;
+    width:100%;
+    height:100%;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: fade1;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#right-container2 {
+	position: absolute;
+    width:100%;
+    height:100%;
+	-webkit-animation-duration: 20s;
+	-webkit-animation-name: fade2;
+	-webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes fade1 {
+	0% {opacity: 0;}
+	5% {opacity: 1;}
+	45% {opacity: 1;}
+	50% {opacity: 0;}
+	100% {opacity: 0;}
+}
+
+@-webkit-keyframes fade2 {
+	0% {opacity: 0;}	
+	50% {opacity: 0;}
+    55% {opacity: 1;}
+	95% {opacity: 1;}
+	100% {opacity: 0;}
 }
 
 .event {
@@ -170,11 +220,6 @@ p.time {
     color: #1f99d5;
 }
 
-.right-container {
-    width:100%;
-    height:100%   
-}
-
 /*right content images*/
 .skew {
     width: 100%;
@@ -184,8 +229,7 @@ p.time {
     overflow: hidden;
     margin-left: 65%;
     z-index:4;
-    -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);
-	
+    -webkit-box-shadow: -7px 7px 5px 0px rgba(0, 0, 0, 0.2);	
 }
 
 .skew img {
