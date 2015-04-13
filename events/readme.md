@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Events Template was created to display a series of custom events that rotate into the screen view one at a time. It can be modified to accommodate various markets and segments. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/events/events.html
+The Events Template was created to display a series of custom events that rotate into the screen view one at a time. It can be modified to accommodate various markets and segments. A preview of the template can be seen here: http://rise-vision.github.io/content-templates/events/events.html
 
 ##Steps to run the events template:##
 
