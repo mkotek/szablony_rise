@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The Restaurant Menuboard Template was created to display easy-to-read food and beverage prices while providing eye-catching food imagery to whet appetites. A preview of the template can be seen here: http://commondatastorage.googleapis.com/risemedialibrary-395c64e5-2930-460b-881e-009aabb157df/content-templates/restaurant-menuboard/restaurant-menuboard.html
+The Restaurant Menuboard Template was created to display easy-to-read food and beverage prices while providing eye-catching food imagery to whet appetites. A preview of the template can be seen here: http://rise-vision.github.io/content-templates/restaurant-menuboard/restaurant-menuboard.html
 
 ##Steps to run the Restaurant Menuboard Template:##
 
