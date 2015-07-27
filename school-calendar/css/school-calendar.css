@@ -98,7 +98,7 @@ p.header {
     position:absolute;	
     z-index:2;
 	-webkit-animation-duration: 20s;
-	-webkit-animation-name: fade1;
+	-webkit-animation-name: lightSpeedIn1;
 	-webkit-animation-iteration-count: infinite;
 }
 
@@ -110,7 +110,7 @@ p.header {
     position:absolute;	
     z-index:2;
 	-webkit-animation-duration: 20s;
-	-webkit-animation-name: fade2;
+	-webkit-animation-name: lightSpeedIn2;
 	-webkit-animation-iteration-count: infinite;
 }
 
@@ -119,7 +119,7 @@ p.header {
     width:100%;
     height:100%;
 	-webkit-animation-duration: 20s;
-	-webkit-animation-name: fade1;
+	-webkit-animation-name: lightSpeedIn1;
 	-webkit-animation-iteration-count: infinite;
 }
 
@@ -128,7 +128,7 @@ p.header {
     width:100%;
     height:100%;
 	-webkit-animation-duration: 20s;
-	-webkit-animation-name: fade2;
+	-webkit-animation-name: lightSpeedIn2;
 	-webkit-animation-iteration-count: infinite;
 }
 
