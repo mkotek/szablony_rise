@@ -40,7 +40,7 @@ var symbols = {
                     id: 'toddjohnson',
                     type: 'text',
                     rect: ['669px', '0px','auto','auto','auto', 'auto'],
-                    text: "ADAM IDEALNY",
+                    text: "ADAM WSPANIAŁY",
                     align: "left",
                     font: ['Oswald, sans-serif', 120, "rgba(193,22,69,1.00)", "normal", "none", "normal"]
                 },
