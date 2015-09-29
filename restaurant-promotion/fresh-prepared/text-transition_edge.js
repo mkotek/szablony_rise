@@ -48,7 +48,7 @@ var symbols = {
                     id: 'weprepare',
                     type: 'text',
                     rect: ['0px', '0px','857px','738px','auto', 'auto'],
-                    text: "PRZYGOTOWUJEMY ",
+                    text: "GOTUJEMY ",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(193,22,69,1)", "bold", "none", "normal"]
                 }]
