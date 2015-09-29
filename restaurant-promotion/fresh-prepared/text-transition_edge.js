@@ -32,7 +32,7 @@ var symbols = {
                     id: 'soitsperfect',
                     type: 'text',
                     rect: ['0px', '0px','857px','750px','auto', 'auto'],
-                    text: "<br>        <br><br>SO IT'S PERFECT <br>ON THE GO!<br>",
+                    text: "<br>        <br><br>KTÓRE IDEALNIE SIĘ NADAJE <br>DO SPOŻYCIA W DRODZE!<br>",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(193,22,69,1.00)", "bold", "none", "normal"]
                 },
@@ -40,7 +40,7 @@ var symbols = {
                     id: 'freshhealthy',
                     type: 'text',
                     rect: ['0px', '0px','857px','750px','auto', 'auto'],
-                    text: "<br>FRESH HEALTHY <br>FOOD FOR YOU,<br>",
+                    text: "<br>ŚWIEŻE I ZDROWE <br>JEDZENIE DLA CIEBIE,<br>",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(181,189,0,1.00)", "bold", "none", "normal"]
                 },
@@ -48,7 +48,7 @@ var symbols = {
                     id: 'weprepare',
                     type: 'text',
                     rect: ['0px', '0px','857px','738px','auto', 'auto'],
-                    text: "WE PREPARE ",
+                    text: "PRZYGOTOWUJEMY ",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(193,22,69,1)", "bold", "none", "normal"]
                 }]
