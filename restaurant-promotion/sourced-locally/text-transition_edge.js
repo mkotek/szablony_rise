@@ -32,14 +32,14 @@ var symbols = {
                     id  : 'noneofour',
                     type: 'text',
                     rect: ['0px', '583px','872px','268px','auto', 'auto'],
-                    text: "Żadne z naszych skadników nie są<br>produkowane masowo lub dowożone.",
+                    text: "Nasze składniki nie są<br>produkowane masowo ani dowożone.",
                     font: ['Oswald, sans-serif', 86, "rgba(99,99,99,1)", "100", "none", ""]
                 },
                 {
                     id: 'sourcedlocally',
                     type: 'text',
                     rect: ['0px', '150px','809px','425px','auto', 'auto'],
-                    text: "POZYSKIWANE <br>LOKALNIE",
+                    text: "KUPUJEMY <br>LOKALNIE",
                     align: "left",
                     font: ['Oswald, sans-serif', 190, "rgba(193,22,69,1)", "bold", "none", "normal"]
                 },
@@ -48,7 +48,7 @@ var symbols = {
                     type: 'text',
                     rect: ['6px', '0px','766px','150px','auto', 'auto'],
                     clip: ['rect(0px -0.2607421875px 150px 0px)'],
-                    text: "NASZE JEDZENIE JEST",
+                    text: "NASZE JEDZENIE",
                     font: ['Oswald, sans-serif', 101, "rgba(181,189,0,1.00)", "700", "none", ""]
                 }]
             }],
