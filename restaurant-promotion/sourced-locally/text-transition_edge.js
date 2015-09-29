@@ -39,7 +39,7 @@ var symbols = {
                     id: 'sourcedlocally',
                     type: 'text',
                     rect: ['0px', '150px','809px','425px','auto', 'auto'],
-                    text: "KUPUJEMY <br>LOKALNIE",
+                    text: "GOTUJEMY <br>NA MIEJSCU",
                     align: "left",
                     font: ['Oswald, sans-serif', 190, "rgba(193,22,69,1)", "bold", "none", "normal"]
                 },
@@ -48,7 +48,7 @@ var symbols = {
                     type: 'text',
                     rect: ['6px', '0px','766px','150px','auto', 'auto'],
                     clip: ['rect(0px -0.2607421875px 150px 0px)'],
-                    text: "NASZE JEDZENIE",
+                    text: "NASZE POTRAWY",
                     font: ['Oswald, sans-serif', 101, "rgba(181,189,0,1.00)", "700", "none", ""]
                 }]
             }],
