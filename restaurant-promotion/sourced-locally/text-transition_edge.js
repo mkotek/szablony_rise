@@ -39,7 +39,7 @@ var symbols = {
                     id: 'sourcedlocally',
                     type: 'text',
                     rect: ['0px', '150px','809px','425px','auto', 'auto'],
-                    text: "GOTUJEMY <br>NA MIEJSCU",
+                    text: "GOTUJEMY <br>LOKALNIE",
                     align: "left",
                     font: ['Oswald, sans-serif', 190, "rgba(193,22,69,1)", "bold", "none", "normal"]
                 },
