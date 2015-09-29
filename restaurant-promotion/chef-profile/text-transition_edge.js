@@ -32,7 +32,7 @@ var symbols = {
                     id   : 'paragraph',
                     type : 'text',
                     rect : ['1px', '174px','1801px','252px','auto', 'auto'],
-                    text : "Adam podchodzi do jedzenia w sposób nowoczesny i wysublimowany, przy użyciu swoich sekretnych przepisów. Używa wyłącznie świeżych, przede wszystkim sezonowych, produktów.",
+                    text : "Jan podchodzi do jedzenia w sposób nowoczesny i wysublimowany, przy użyciu swoich sekretnych przepisów. Używa wyłącznie świeżych, przede wszystkim sezonowych, produktów.",
                     align: "left",
                     font : ['Oswald, sans-serif', 68, "rgba(99,99,99,1.00)", "100", "none", "normal"]
                 },
@@ -40,7 +40,7 @@ var symbols = {
                     id: 'toddjohnson',
                     type: 'text',
                     rect: ['669px', '0px','auto','auto','auto', 'auto'],
-                    text: "ADAM WSPANIAŁY",
+                    text: "JAN WSPANIAŁY",
                     align: "left",
                     font: ['Oswald, sans-serif', 120, "rgba(193,22,69,1.00)", "normal", "none", "normal"]
                 },
