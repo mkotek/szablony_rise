@@ -32,7 +32,7 @@ var symbols = {
                     id  : 'noneofour',
                     type: 'text',
                     rect: ['0px', '583px','872px','268px','auto', 'auto'],
-                    text: "Nasze składniki nie są<br>produkowane masowo ani dowożone.",
+                    text: "Nasze składniki nie są<br>produkowane masowo.",
                     font: ['Oswald, sans-serif', 86, "rgba(99,99,99,1)", "100", "none", ""]
                 },
                 {
