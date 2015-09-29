@@ -29,18 +29,18 @@ var symbols = {
                 rect: ['62', '29','1802','426','auto', 'auto'],
                 c: [
                 {
-                    id: 'paragraph',
-                    type: 'text',
-                    rect: ['1px', '174px','1801px','252px','auto', 'auto'],
-                    text: "Todd interprets cuisine in a contemporary and refined way with ingredients being the key elements. He only uses the freshest and most seasonal items.",
+                    id   : 'paragraph',
+                    type : 'text',
+                    rect : ['1px', '174px','1801px','252px','auto', 'auto'],
+                    text : "Adam podchodzi do jedzenia w sposób nowoczesny, a jednocześnie wysublimowany, przy użyciu doskonałych składników. Używa wyłącznie świeżych, a w miarę możliwości sezonowych produktów.",
                     align: "left",
-                    font: ['Oswald, sans-serif', 68, "rgba(99,99,99,1.00)", "100", "none", "normal"]
+                    font : ['Oswald, sans-serif', 68, "rgba(99,99,99,1.00)", "100", "none", "normal"]
                 },
                 {
                     id: 'toddjohnson',
                     type: 'text',
                     rect: ['669px', '0px','auto','auto','auto', 'auto'],
-                    text: "TODD JOHNSON",
+                    text: "ADAM IDEALNY",
                     align: "left",
                     font: ['Oswald, sans-serif', 120, "rgba(193,22,69,1.00)", "normal", "none", "normal"]
                 },
@@ -48,7 +48,7 @@ var symbols = {
                     id: 'chefprofile',
                     type: 'text',
                     rect: ['0px', '0px','auto','auto','auto', 'auto'],
-                    text: "CHEF PROFILE",
+                    text: "NASZ CHEF",
                     align: "left",
                     font: ['Oswald, sans-serif', 120, "rgba(181,189,0,1.00)", "normal", "none", "normal"]
                 }]
