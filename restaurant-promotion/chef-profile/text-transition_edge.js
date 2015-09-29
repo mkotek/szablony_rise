@@ -32,7 +32,7 @@ var symbols = {
                     id   : 'paragraph',
                     type : 'text',
                     rect : ['1px', '174px','1801px','252px','auto', 'auto'],
-                    text : "Adam podchodzi do jedzenia w sposób nowoczesny, a jednocześnie wysublimowany, przy użyciu doskonałych składników. Używa wyłącznie świeżych, a w miarę możliwości sezonowych produktów.",
+                    text : "Adam podchodzi do jedzenia w sposób nowoczesny, a jednocześnie wysublimowany, przy użyciu swoich sekretnych pomysłów. Używa wyłącznie świeżych, a w miarę możliwości przede wszystkim sezonowych produktów.",
                     align: "left",
                     font : ['Oswald, sans-serif', 68, "rgba(99,99,99,1.00)", "100", "none", "normal"]
                 },
