@@ -32,7 +32,7 @@ var symbols = {
                     id: 'soitsperfect',
                     type: 'text',
                     rect: ['0px', '0px','857px','750px','auto', 'auto'],
-                    text: "<br>        <br><br>KTÓRE IDEALNIE SIĘ NADAJE <br>DO SPOŻYCIA W DRODZE!<br>",
+                    text: "<br>        <br><br>KTÓRE IDEALNIE NADAJĄ SIĘ <br>DO ZJEDZENIA!<br>",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(193,22,69,1.00)", "bold", "none", "normal"]
                 },
@@ -40,7 +40,7 @@ var symbols = {
                     id: 'freshhealthy',
                     type: 'text',
                     rect: ['0px', '0px','857px','750px','auto', 'auto'],
-                    text: "<br>ŚWIEŻE I ZDROWE <br>JEDZENIE DLA CIEBIE,<br>",
+                    text: "<br>ŚWIEŻE I ZDROWE <br>POTRAWY,<br>",
                     align: "left",
                     font: ['Oswald, sans-serif', 124, "rgba(181,189,0,1.00)", "bold", "none", "normal"]
                 },
